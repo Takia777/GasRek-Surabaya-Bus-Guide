@@ -1,0 +1,16 @@
+# Normalize line endings so Windows and other systems do not conflict
+* text=auto
+
+*.csv  text eol=lf
+*.md   text eol=lf
+*.py   text eol=lf
+*.pl   text eol=lf
+*.cypher text eol=lf
+*.owl  text eol=lf
+*.ttl  text eol=lf
+*.json text eol=lf
+
+*.png binary
+*.jpg binary
+*.pdf binary
+*.xlsx binary
