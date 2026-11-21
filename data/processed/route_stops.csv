@@ -1,0 +1,1202 @@
+route_id,direction,seq,stop_id,stop_name,distance_from_prev_km,travel_min_from_prev
+R1,outbound,1,STP0713,Terminal Purabaya,0.0,0
+R1,outbound,2,STP0075,Dukuh Menanggal,1.381,5
+R1,outbound,3,STP0094,Siwalankerto 1,0.965,2
+R1,outbound,4,STP0095,Taman Pelangi,1.095,3
+R1,outbound,5,STP0084,RS Bhayangkara,0.671,2
+R1,outbound,6,STP0098,Ubhara,0.516,1
+R1,outbound,7,STP0083,Pusvetma,0.791,3
+R1,outbound,8,STP0790,Ketintang Royal Plaza,1.095,2
+R1,outbound,9,STP0829,Terminal Intermoda Joyoboyo,1.392,4
+R1,outbound,10,STP0798,Museum BI,0.764,3
+R1,outbound,11,STP0688,Rumah Sakit Darmo,1.063,2.52
+R1,outbound,12,STP0674,Gozco,0.452,1
+R1,outbound,13,STP0677,Halte Pandegiling 1,0.901,2
+R1,outbound,14,STP0144,Urip Sumoharjo 1,0.557,1.01
+R1,outbound,15,STP0114,Halte Basuki Rahmat,0.335,0.85
+R1,outbound,16,STP0676,Halte Kaliasin,1.004,2.52
+R1,outbound,17,STP0675,Halte Embong Malang,0.81,1.99
+R1,outbound,18,STP0022,Halte Blauran,0.9,1.53
+R1,outbound,19,STP0028,Pirngadi,0.37,0.98
+R1,outbound,20,STP0023,Halte Pasar Turi,1.027,2.01
+R1,outbound,21,STP0275,Halte Masjid Kemayoran,0.469,1
+R1,outbound,22,STP0274,Halte Indrapura,0.562,1.54
+R1,outbound,23,STP0278,Hotel Berlian International,1.749,3.85
+R1,outbound,24,STP0281,Torawitan,0.808,1.66
+R1,outbound,25,STP0273,Barunawati,0.432,1
+R1,outbound,26,STP0383,Pelindo Place 1,2.203,4.36
+R1,outbound,27,STP0382,Pelabuhan Tanjung Perak,0.992,1.89
+R1,inbound,1,STP0382,Pelabuhan Tanjung Perak,0.0,0
+R1,inbound,2,STP0384,Pelindo Place 2,0.981,0
+R1,inbound,3,STP0378,Halte Perak Timur,2.235,1
+R1,inbound,4,STP0385,Torawitan,0.378,0
+R1,inbound,5,STP0379,Hotel Berlian International,0.797,0
+R1,inbound,6,STP0276,Halte Rajawali,0.888,0
+R1,inbound,7,STP0279,Jembatan Merah,0.521,1
+R1,inbound,8,STP0282,Veteran,0.648,2
+R1,inbound,9,STP0277,Halte Tugu Pahlawan,0.657,2
+R1,inbound,10,STP0021,Halte Alun Alun Contong,1.131,3
+R1,inbound,11,STP0118,Halte Siola,0.795,3
+R1,inbound,12,STP0120,Halte Tunjungan,0.413,2
+R1,inbound,13,STP0139,Simpang Dukuh,0.593,2
+R1,inbound,14,STP0112,Gubernur Suryo,0.335,1
+R1,inbound,15,STP0116,Halte Panglima Sudirman,0.415,2
+R1,inbound,16,STP0119,Halte Sono Kembang,0.48,2
+R1,inbound,17,STP0695,Urip Sumoharjo 2,0.68,2
+R1,inbound,18,STP0678,Halte Pandegiling 2,0.588,1
+R1,inbound,19,STP0679,Halte Santa Maria,0.802,1.83
+R1,inbound,20,STP0767,Darmo,0.862,1.68
+R1,inbound,21,STP0795,Marmoyo,1.019,1.85
+R1,inbound,22,STP0778,Halte Joyoboyo 2,0.41,1
+R1,inbound,23,STP0782,Halte RSAL,1.373,2.5
+R1,inbound,24,STP0744,Halte Margorejo,0.702,1.02
+R1,inbound,25,STP0746,Halte Wonocolo,0.763,1.98
+R1,inbound,26,STP0745,Halte UINSA,0.569,1
+R1,inbound,27,STP0743,Halte Jemur Ngawinan,1.019,2.51
+R1,inbound,28,STP0760,Siwalankerto 2,1.225,2.5
+R1,inbound,29,STP0081,Kerto Menanggal,0.935,1.82
+R1,inbound,30,STP0713,Terminal Purabaya,1.424,2.02
+R4,outbound,1,STP0713,Terminal Purabaya,0.0,0
+R4,outbound,2,STP0075,Dukuh Menanggal,1.381,1.52
+R4,outbound,3,STP0094,Siwalankerto 1,0.965,2
+R4,outbound,4,STP0095,Taman Pelangi,1.095,2.52
+R4,outbound,5,STP0756,Raya Jemursari 1,0.441,1
+R4,outbound,6,STP0758,Raya Jemursari 2,0.553,1
+R4,outbound,7,STP0755,RSI Jemursari,0.763,1.84
+R4,outbound,8,STP0747,Kantor Pertamina 1,0.924,2
+R4,outbound,9,STP0742,Dinas Kesehatan,0.867,1.52
+R4,outbound,10,STP0703,Prapen Indah Timur 1,0.946,2
+R4,outbound,11,STP0759,Sidosermo Indah,0.461,1
+R4,outbound,12,STP0193,Nginden A,0.91,2
+R4,outbound,13,STP0219,Terminal Bratang,0.837,1.84
+R4,outbound,14,STP0216,Taman Flora A,0.542,1.52
+R4,outbound,15,STP0209,Sentra Kuliner RMI,0.224,0.16
+R4,outbound,16,STP0794,Krukah Timur,0.698,1.84
+R4,outbound,17,STP0185,Ngagel Jaya 1,0.363,0.68
+R4,outbound,18,STP0200,Puskesmas Pucang Sewu 1,0.687,1.32
+R4,outbound,19,STP0155,Gedung Pamulangan 1,0.503,1.52
+R4,outbound,20,STP0164,"Jalan Dharmawangsa, 152e",0.573,1
+R4,outbound,21,STP0157,Gubeng Airlangga,0.814,1.84
+R4,outbound,22,STP0160,Halte Lapangan Hockey,0.871,1.68
+R4,outbound,23,STP0652,Universitas Airlangga Kampus A,0.324,1
+R4,outbound,24,STP0636,Kedung Tarukan 1,0.574,1.52
+R4,outbound,25,STP0183,Mojokidul 1,0.577,0.48
+R4,outbound,26,STP0207,SMKN 5 Surabaya,0.368,1.52
+R4,outbound,27,STP0212,Simpang Dharmahusada Utara 1,0.599,1.32
+R4,outbound,28,STP0221,Waron Hospital,0.193,0.52
+R4,outbound,29,STP0368,SMA Hidayatul Ummah 1,1.31,2
+R4,outbound,30,STP0347,Halte Mulyorejo 2,0.423,1
+R4,outbound,31,STP0353,Halte UNAIR 2,0.716,1.52
+R4,outbound,32,STP0367,RS UNAIR,0.363,1
+R4,outbound,33,STP0370,Sutorejo Barat,0.462,1
+R4,outbound,34,STP0336,Dharmahusada Regency,0.076,0
+R4,outbound,35,STP0373,UNAIR C,0.284,0
+R4,outbound,36,STP0338,Halte Galaxy 2,0.937,2.32
+R4,outbound,37,STP0344,Halte Kertajaya Indah,0.649,1
+R4,outbound,38,STP0530,Bundaran ITS,1.097,2.32
+R4,outbound,39,STP0571,PENS 2,0.722,1
+R4,inbound,1,STP0570,PENS 1,0.0,0
+R4,inbound,2,STP0535,Halte ITS,0.698,0.31
+R4,inbound,3,STP0341,Halte KONI MERR,1.333,0.81
+R4,inbound,4,STP0337,Halte Galaxy 1,0.45,0.5
+R4,inbound,5,STP0352,Halte UNAIR 1,1.069,1.5
+R4,inbound,6,STP0335,Airlangga Convention Center,0.633,1
+R4,inbound,7,STP0369,SMA Hidayatul Ummah 2,0.266,0.69
+R4,inbound,8,STP0169,Kalijudan Indah 2,1.011,2
+R4,inbound,9,STP0213,Simpang Dharmahusada Utara 2,0.259,0.81
+R4,inbound,10,STP0208,SWK Dharmahusada,0.595,1
+R4,inbound,11,STP0147,BPJS Dharmahusada,0.162,0.69
+R4,inbound,12,STP0206,SMKN 5,0.797,1.81
+R4,inbound,13,STP0184,Mojokidul 2,0.459,1
+R4,inbound,14,STP0172,Kedung Tarukan 2,0.551,1
+R4,inbound,15,STP0652,Universitas Airlangga Kampus A,0.58,1
+R4,inbound,16,STP0161,Halte RSUD Dr Soetomo,0.534,1.5
+R4,inbound,17,STP0162,Halte UNAIR B,0.624,1
+R4,inbound,18,STP0156,Gedung Pamulangan 2,1.326,2
+R4,inbound,19,STP0201,Puskesmas Pucang Sewu 2,0.506,1.5
+R4,inbound,20,STP0186,Ngagel Jaya 2,0.805,1.31
+R4,inbound,21,STP0153,Bilka,0.267,0.69
+R4,inbound,22,STP0220,UBAYA Ngagel,0.681,1.81
+R4,inbound,23,STP0558,Manyar,0.727,1
+R4,inbound,24,STP0567,Nginden B,0.852,2
+R4,inbound,25,STP0708,SMAN 16,0.852,1.69
+R4,inbound,26,STP0704,Prapen Indah Timur 2,0.644,1.81
+R4,inbound,27,STP0742,Dinas Kesehatan,0.87,1.5
+R4,inbound,28,STP0698,Kantor Pertamina 2,0.816,2
+R4,inbound,29,STP0754,RSI Jemursari,1.022,2
+R4,inbound,30,STP0758,Raya Jemursari 2,0.718,1.5
+R4,inbound,31,STP0757,Raya Jemursari 2,0.568,1.31
+R4,inbound,32,STP0743,Halte Jemur Ngawinan,0.259,0.69
+R4,inbound,33,STP0760,Siwalankerto 2,1.225,2.81
+R4,inbound,34,STP0081,Kerto Menanggal,0.935,1
+R4,inbound,35,STP0713,Terminal Purabaya,1.424,2.5
+R5,outbound,1,STP0120,Halte Tunjungan,0.0,0
+R5,outbound,2,STP0139,Simpang Dukuh,0.593,0.99
+R5,outbound,3,STP0112,Gubernur Suryo,0.335,0.55
+R5,outbound,4,STP0116,Halte Panglima Sudirman,0.415,0.99
+R5,outbound,5,STP0119,Halte Sono Kembang,0.48,0.99
+R5,outbound,6,STP0671,Basuki Rahmat 2,0.42,0.99
+R5,outbound,7,STP0676,Halte Kaliasin,0.477,0.99
+R5,outbound,8,STP0675,Halte Embong Malang,0.81,1.86
+R5,outbound,9,STP0673,Embong Malang 2,0.517,1.53
+R5,outbound,10,STP0685,Kedung Doro B,0.469,1
+R5,outbound,11,STP0697,Wonorejo B,0.938,2.01
+R5,outbound,12,STP0686,Kupang Krajan B,0.422,1
+R5,outbound,13,STP0687,Pasar Kembang B,0.405,1
+R5,outbound,14,STP0493,Butulan B,0.673,1.52
+R5,outbound,15,STP0510,Simo Katrungan Kidul B,1.179,2.01
+R5,outbound,16,STP0622,Simo Jawar B,1.989,2.9
+R5,outbound,17,STP0665,Samsat Tandes 1,2.233,3.18
+R5,outbound,18,STP0661,Karangpoh B,0.682,1.01
+R5,outbound,19,STP0654,Bibis B,0.769,1.9
+R5,outbound,20,STP0663,Manukan Kulon B,2.104,2.96
+R5,outbound,21,STP0659,Kantor Kelurahan Banjar Sugihan B,0.892,1.92
+R5,outbound,22,STP0012,Kantor Kelurahan Kandangan B,0.666,1.59
+R5,outbound,23,STP0015,Polsek Benowo B,2.175,2.95
+R5,outbound,24,STP0401,Universitas Wijaya Putra B,1.036,2.47
+R5,outbound,25,STP0389,Kantor Kecamatan Pakal B,1.184,2.08
+R5,outbound,26,STP0395,Stasiun Benowo B,1.694,2.81
+R5,outbound,27,STP0399,Terminal Benowo,0.979,2.36
+R5,outbound,28,STP0392,Singgapur A,0.504,1.22
+R5,outbound,29,STP0396,Sumberejo A,0.3,0.41
+R5,outbound,30,STP0397,Sumberejo Makmur 1 A,0.23,0.59
+R5,outbound,31,STP0398,Sumberejo Makmur 2 A,0.257,0.49
+R5,outbound,32,STP0390,Puskesmas Sumberejo A,0.211,0.86
+R5,outbound,33,STP0386,Griya Surabaya Asri,0.477,0.91
+R5,outbound,34,STP0387,Jembatan Cinta,0.629,1.2
+R5,outbound,35,STP0386,Griya Surabaya Asri,0.629,0.87
+R5,outbound,36,STP0391,Puskesmas Sumberejo B,0.455,0.63
+R5,outbound,37,STP0398,Sumberejo Makmur 2 A,0.233,0.97
+R5,outbound,38,STP0397,Sumberejo Makmur 1 A,0.257,0.41
+R5,outbound,39,STP0396,Sumberejo A,0.23,0.93
+R5,outbound,40,STP0393,Singgapur B,0.306,0.18
+R5,outbound,41,STP0399,Terminal Benowo,0.502,0.95
+R5,inbound,1,STP0399,Terminal Benowo,0.0,0
+R5,inbound,2,STP0394,Stasiun Benowo A,0.961,9.44
+R5,inbound,3,STP0388,Kantor Kecamatan Pakal A,1.703,2.53
+R5,inbound,4,STP0400,Universitas Wijaya Putra A,1.167,2.53
+R5,inbound,5,STP0014,Polsek Benowo A,1.05,2.01
+R5,inbound,6,STP0011,Kantor Kelurahan Kandangan A,2.153,2.92
+R5,inbound,7,STP0658,Kantor Kelurahan Banjar Sugihan A,0.624,1.6
+R5,inbound,8,STP0662,Manukan Kulon A,0.97,1.93
+R5,inbound,9,STP0653,Bibis A,2.084,3.48
+R5,inbound,10,STP0660,Karangpoh A,0.752,1.05
+R5,inbound,11,STP0666,Samsat Tandes 2,0.847,1.99
+R5,inbound,12,STP0627,Tanjungsari A,0.735,1.49
+R5,inbound,13,STP0621,Simo Jawar A,1.391,2.01
+R5,inbound,14,STP0509,Simo Katrungan Kidul A,1.985,2.56
+R5,inbound,15,STP0492,Butulan A,1.204,2.85
+R5,inbound,16,STP0506,Pasar Kembang A,0.61,1.05
+R5,inbound,17,STP0500,Kupang Krajan A,0.371,0.97
+R5,inbound,18,STP0513,Wonorejo A,0.422,1
+R5,inbound,19,STP0499,Kedung Doro A,0.934,2.38
+R5,inbound,20,STP0511,Sindoro,0.632,1.14
+R5,inbound,21,STP0138,SMPN 3,0.39,0.92
+R5,inbound,22,STP0118,Halte Siola,0.326,0.96
+R5,inbound,23,STP0120,Halte Tunjungan,0.413,0.93
+SBT,outbound,1,STP0028,Pirngadi,0.0,0
+SBT,outbound,2,STP0021,Halte Alun Alun Contong,0.314,0
+SBT,outbound,3,STP0118,Halte Siola,0.795,2
+SBT,outbound,4,STP0120,Halte Tunjungan,0.413,0.67
+SBT,outbound,5,STP0139,Simpang Dukuh,0.593,1.33
+SBT,outbound,6,STP0112,Gubernur Suryo,0.335,1.67
+SBT,outbound,7,STP0116,Halte Panglima Sudirman,0.415,0.67
+SBT,outbound,8,STP0119,Halte Sono Kembang,0.48,1
+SBT,outbound,9,STP0695,Urip Sumoharjo 2,0.68,2
+SBT,outbound,10,STP0678,Halte Pandegiling 2,0.588,1
+SBT,outbound,11,STP0679,Halte Santa Maria,0.802,2
+SBT,outbound,12,STP0767,Darmo,0.862,1.67
+SBT,outbound,13,STP0795,Marmoyo,1.019,2
+SBT,outbound,14,STP0778,Halte Joyoboyo 2,0.41,1
+SBT,outbound,15,STP0782,Halte RSAL,1.373,2
+SBT,outbound,16,STP0744,Halte Margorejo,0.702,1.67
+SBT,outbound,17,STP0746,Halte Wonocolo,0.763,2
+SBT,outbound,18,STP0745,Halte UINSA,0.569,1
+SBT,outbound,19,STP0743,Halte Jemur Ngawinan,1.019,2.61
+SBT,outbound,20,STP0760,Siwalankerto 2,1.225,2
+SBT,outbound,21,STP0081,Kerto Menanggal,0.935,1.94
+SBT,outbound,22,STP0713,Terminal Purabaya,1.424,2.5
+SBT,inbound,1,STP0713,Terminal Purabaya,0.0,0
+SBT,inbound,2,STP0075,Dukuh Menanggal,1.381,1.56
+SBT,inbound,3,STP0094,Siwalankerto 1,0.965,2
+SBT,inbound,4,STP0095,Taman Pelangi,1.095,2.53
+SBT,inbound,5,STP0084,RS Bhayangkara,0.671,1.34
+SBT,inbound,6,STP0098,Ubhara,0.516,1
+SBT,inbound,7,STP0083,Pusvetma,0.791,1.72
+SBT,inbound,8,STP0790,Ketintang Royal Plaza,1.095,2.44
+SBT,inbound,9,STP0777,Halte Joyoboyo 1,1.424,1.97
+SBT,inbound,10,STP0798,Museum BI,0.702,1.91
+SBT,inbound,11,STP0688,Rumah Sakit Darmo,1.063,2
+SBT,inbound,12,STP0674,Gozco,0.452,1.06
+SBT,inbound,13,STP0677,Halte Pandegiling 1,0.901,1.72
+SBT,inbound,14,STP0144,Urip Sumoharjo 1,0.557,1.53
+SBT,inbound,15,STP0114,Halte Basuki Rahmat,0.335,0.91
+SBT,inbound,16,STP0676,Halte Kaliasin,1.004,1.97
+SBT,inbound,17,STP0675,Halte Embong Malang,0.81,2
+SBT,inbound,18,STP0022,Halte Blauran,0.9,1.62
+SBT,inbound,19,STP0028,Pirngadi,0.37,1
+R2,outbound,1,STP0297,Halte UNESA,0.0,0
+R2,outbound,2,STP0715,Bukit Darmo Boulevard,0.881,1.47
+R2,outbound,3,STP0724,Halte PTC,0.621,1.29
+R2,outbound,4,STP0067,Halte Yono Suwoyo 1,0.799,1.7
+R2,outbound,5,STP0061,Halte Patung Kuda 1,0.691,1.48
+R2,outbound,6,STP0051,Halte Darmo Permai 1,1.044,1.99
+R2,outbound,7,STP0604,Halte Putat Gede 1,0.961,1.77
+R2,outbound,8,STP0066,Halte Taman Makam Pahlawan 1,1.43,1.99
+R2,outbound,9,STP0505,Park & Ride Mayjend Sungkono,1.033,2.45
+R2,outbound,10,STP0494,Halte Darmo Park 1,0.375,0.99
+R2,outbound,11,STP0497,Halte Gedung Juang 45,0.515,1
+R2,outbound,12,STP0774,Halte Adityawarman,1.363,2.76
+R2,outbound,13,STP0781,Halte Kutai 2,0.655,1.48
+R2,outbound,14,STP0775,Halte Bengawan 1,0.501,1
+R2,outbound,15,STP0688,Rumah Sakit Darmo,0.452,0.99
+R2,outbound,16,STP0674,Gozco,0.452,1.02
+R2,outbound,17,STP0677,Halte Pandegiling 1,0.901,1.98
+R2,outbound,18,STP0144,Urip Sumoharjo 1,0.557,1.43
+R2,outbound,19,STP0114,Halte Basuki Rahmat,0.335,0.79
+R2,outbound,20,STP0676,Halte Kaliasin,1.004,1.99
+R2,outbound,21,STP0675,Halte Embong Malang,0.81,1.48
+R2,outbound,22,STP0511,Sindoro,0.715,1.49
+R2,outbound,23,STP0138,SMPN 3,0.39,0.97
+R2,outbound,24,STP0118,Halte Siola,0.326,0.57
+R2,outbound,25,STP0120,Halte Tunjungan,0.413,1.19
+R2,outbound,26,STP0139,Simpang Dukuh,0.593,1.21
+R2,outbound,27,STP0112,Gubernur Suryo,0.335,0.79
+R2,outbound,28,STP0113,Halte Balai Kota,0.685,1.45
+R2,outbound,29,STP0115,Halte Grand City,0.45,0.98
+R2,outbound,30,STP0629,Halte Moestopo,0.602,1.07
+R2,outbound,31,STP0161,Halte RSUD Dr Soetomo,0.784,1.73
+R2,outbound,32,STP0162,Halte UNAIR B,0.624,1.64
+R2,outbound,33,STP0158,Halte Kertajaya 1,0.857,1.76
+R2,outbound,34,STP0350,Halte Samsat Manyar,0.625,1.08
+R2,outbound,35,STP0340,Halte KONI 1,1.864,2.72
+R2,outbound,36,STP0344,Halte Kertajaya Indah,0.768,1.66
+R2,outbound,37,STP0530,Bundaran ITS,1.097,1.86
+R2,outbound,38,STP0571,PENS 2,0.722,1.88
+R2,outbound,39,STP0355,Laguna,1.165,2.22
+R2,outbound,40,STP0365,Pakuwon City Mall,0.682,1.29
+R2,outbound,41,STP0354,Kejawan Putih Tambak,0.489,1.36
+R2,inbound,1,STP0354,Kejawan Putih Tambak,0.0,0
+R2,inbound,2,STP0570,PENS 1,1.309,2.45
+R2,inbound,3,STP0535,Halte ITS,0.698,1
+R2,inbound,4,STP0358,Manyar Kerta Adi,1.148,2.76
+R2,inbound,5,STP0345,Halte Klampis,0.879,1.7
+R2,inbound,6,STP0339,Halte Gramedia,1.781,2.76
+R2,inbound,7,STP0159,Halte Kertajaya 2,0.606,1.01
+R2,inbound,8,STP0157,Gubeng Airlangga,0.921,1.99
+R2,inbound,9,STP0160,Halte Lapangan Hockey,0.871,1.47
+R2,inbound,10,STP0645,SMAN 4 Surabaya,0.329,1
+R2,inbound,11,STP0117,Halte Pemuda,1.109,2.47
+R2,inbound,12,STP0116,Halte Panglima Sudirman,0.435,1
+R2,inbound,13,STP0119,Halte Sono Kembang,0.48,1
+R2,inbound,14,STP0695,Urip Sumoharjo 2,0.68,1.47
+R2,inbound,15,STP0678,Halte Pandegiling 2,0.588,1.29
+R2,inbound,16,STP0679,Halte Santa Maria,0.802,1.47
+R2,inbound,17,STP0776,Halte Bengawan 2,0.984,2
+R2,inbound,18,STP0780,Halte Kutai 1,0.513,1.47
+R2,inbound,19,STP0779,Halte KPU,0.882,1.99
+R2,inbound,20,STP0070,Mayjend Sungkono,1.082,2
+R2,inbound,21,STP0050,Halte Darmo Park 2,0.533,1
+R2,inbound,22,STP0065,Halte Taman Makam Pahlawan,0.962,2.23
+R2,inbound,23,STP0605,Halte Putat Gede 2,1.832,2.7
+R2,inbound,24,STP0063,Halte Pradah Kali Kendal,1.041,1.76
+R2,inbound,25,STP0062,Halte Patung Kuda 2,0.854,2
+R2,inbound,26,STP0068,Halte Yono Suwoyo 2,0.708,1.47
+R2,inbound,27,STP0049,Graha Family Barat,0.79,1.52
+R2,inbound,28,STP0058,Halte Graha Family,0.574,1.47
+R2,inbound,29,STP0716,Bundaran UNESA,0.86,1.77
+R2,inbound,30,STP0297,Halte UNESA,0.055,0
+FD2,outbound,1,STP0505,Park & Ride Mayjend Sungkono,0.0,0
+FD2,outbound,2,STP0494,Halte Darmo Park 1,0.375,0
+FD2,outbound,3,STP0490,Bintang Diponggo A,0.262,1
+FD2,outbound,4,STP0507,SMP Gema 45 A,0.356,0.89
+FD2,outbound,5,STP0504,Pakis Tirtosari A,0.253,0.66
+FD2,outbound,6,STP0512,Wonokitri Besar A,0.533,1
+FD2,outbound,7,STP0501,Pakis Gunung A,0.558,1
+FD2,outbound,8,STP0806,Pasar Pakis A,0.345,1
+FD2,outbound,9,STP0808,Prapanca A,0.186,0
+FD2,outbound,10,STP0762,Amir Hamzah A,0.342,1
+FD2,outbound,11,STP0792,Khairil Anwar,0.104,0.52
+FD2,outbound,12,STP0670,Bank Danamon Diponegoro,0.106,0.36
+FD2,outbound,13,STP0696,W R. Supratman A,0.447,0.67
+FD2,outbound,14,STP0680,Imam Bonjol,0.265,0.88
+FD2,outbound,15,STP0692,Teuku Umar A,0.381,1
+FD2,outbound,16,STP0690,Sawunggaling,0.17,0.01
+FD2,outbound,17,STP0677,Halte Pandegiling 1,0.245,0.97
+FD2,outbound,18,STP0144,Urip Sumoharjo 1,0.557,1.03
+FD2,outbound,19,STP0114,Halte Basuki Rahmat,0.335,0.99
+FD2,outbound,20,STP0671,Basuki Rahmat 2,0.527,1.01
+FD2,outbound,21,STP0105,Embong Wungu,0.382,1
+FD2,outbound,22,STP0142,Taman Apsari,0.247,0.53
+FD2,outbound,23,STP0112,Gubernur Suryo,0.239,0.89
+FD2,outbound,24,STP0116,Halte Panglima Sudirman,0.415,0.99
+FD2,outbound,25,STP0101,Bambu Runcing,0.104,0.03
+FD2,outbound,26,STP0133,PMI,0.253,0.6
+FD2,outbound,27,STP0125,Kayoon 1 A,0.3,0.51
+FD2,outbound,28,STP0126,Kayoon 2 A,0.233,0.53
+FD2,outbound,29,STP0130,Monkasel,0.224,0.86
+FD2,outbound,30,STP0117,Halte Pemuda,0.238,0.14
+FD2,outbound,31,STP0146,Yos Sudarso,0.391,0.99
+FD2,outbound,32,STP0113,Halte Balai Kota,0.456,1.01
+FD2,inbound,1,STP0113,Halte Balai Kota,0.0,0
+FD2,inbound,2,STP0140,Slamet,0.476,0
+FD2,inbound,3,STP0126,Kayoon 2 A,0.675,2
+FD2,inbound,4,STP0125,Kayoon 1 A,0.233,0.55
+FD2,inbound,5,STP0104,Embong Kemiri,0.443,1
+FD2,inbound,6,STP0119,Halte Sono Kembang,0.191,0.34
+FD2,inbound,7,STP0141,Sono Kembang 2,0.263,0.66
+FD2,inbound,8,STP0695,Urip Sumoharjo 2,0.417,1
+FD2,inbound,9,STP0678,Halte Pandegiling 2,0.588,1.52
+FD2,inbound,10,STP0684,Kartini,0.299,0.37
+FD2,inbound,11,STP0693,Teuku Umar B,0.318,0.99
+FD2,inbound,12,STP0689,SD Kristen Petra,0.208,0.55
+FD2,inbound,13,STP0696,W R. Supratman A,0.346,1
+FD2,inbound,14,STP0681,Ir. Anwari,0.388,0.99
+FD2,inbound,15,STP0691,Simpang Kartini,0.331,0.03
+FD2,inbound,16,STP0813,Ronggowarsito,0.095,0.64
+FD2,inbound,17,STP0764,Banyu Urip Wetan,0.182,0.34
+FD2,inbound,18,STP0789,Kembang Kuning,0.208,0.55
+FD2,inbound,19,STP0797,Masijd Rahmat,0.157,0.45
+FD2,inbound,20,STP0763,Amir Hamzah B,0.21,0.55
+FD2,inbound,21,STP0809,Prapanca B,0.306,0.45
+FD2,inbound,22,STP0807,Pasar Pakis B,0.225,0.56
+FD2,inbound,23,STP0502,Pakis Gunung B,0.421,1
+FD2,inbound,24,STP0512,Wonokitri Besar A,0.459,0.99
+FD2,inbound,25,STP0503,Pakis Tirtosari,0.438,1
+FD2,inbound,26,STP0508,SMP Gema 45 B,0.32,0.9
+FD2,inbound,27,STP0491,Bintang Diponggo B,0.36,0.99
+FD2,inbound,28,STP0505,Park & Ride Mayjend Sungkono,0.572,1.01
+FD3,outbound,1,STP0829,Terminal Intermoda Joyoboyo,0.0,0
+FD3,outbound,2,STP0795,Marmoyo,0.578,0.04
+FD3,outbound,3,STP0778,Halte Joyoboyo 2,0.41,1
+FD3,outbound,4,STP0823,Stasiun Wonokromo A,0.555,0.57
+FD3,outbound,5,STP0816,SDN Ngagel A,0.74,1
+FD3,outbound,6,STP0820,SPBU Ngagel A,0.29,0.04
+FD3,outbound,7,STP0802,Novotel A,0.262,0.33
+FD3,outbound,8,STP0799,Ngagel 1a,0.543,0.67
+FD3,outbound,9,STP0800,Ngagel 1a,0.109,0.86
+FD3,outbound,10,STP0796,Marvell,0.322,0.14
+FD3,outbound,11,STP0765,Bung Tomo,0.307,1
+FD3,outbound,12,STP0215,TMP Ngagel 1,0.254,0.86
+FD3,outbound,13,STP0187,Ngagel Jaya Barat,0.425,0.66
+FD3,outbound,14,STP0188,Ngagel Jaya Selatan,0.386,1
+FD3,outbound,15,STP0153,Bilka,0.373,0.87
+FD3,outbound,16,STP0191,Ngagel Madya A,0.38,0.99
+FD3,outbound,17,STP0220,UBAYA Ngagel,0.301,0.49
+FD3,outbound,18,STP0588,Taman Flora,0.296,0.53
+FD3,outbound,19,STP0558,Manyar,0.48,1
+FD3,outbound,20,STP0556,Makam Pumpungan A,0.41,0.99
+FD3,outbound,21,STP0592,UNTAG A,0.411,1.01
+FD3,outbound,22,STP0568,Nginden Semolo A,0.622,1.51
+FD3,outbound,23,STP0577,Semolowaru A,0.342,1
+FD3,outbound,24,STP0579,Semolowaru Elok A,0.313,0.51
+FD3,outbound,25,STP0586,Simpang Semolowaru A,0.245,0.49
+FD3,outbound,26,STP0583,Semolowaru Tengah A,0.447,0.91
+FD3,outbound,27,STP0581,Semolowaru Masjid A,0.206,0.95
+FD3,outbound,28,STP0575,Semampir Tengah A,0.436,0.64
+FD3,outbound,29,STP0563,Medokan Semampir A,0.233,0.91
+FD3,outbound,30,STP0590,Terowongan Medokan A,0.265,0.92
+FD3,outbound,31,STP0554,MERR Semampir A,0.281,0.18
+FD3,outbound,32,STP0543,Halte Sentra UKM MERR A,0.32,0.87
+FD3,outbound,33,STP0540,Halte Semampir B,0.078,0.01
+FD3,outbound,34,STP0555,MERR Semampir B,0.294,0.99
+FD3,outbound,35,STP0435,Ruko Kedung Baruk,0.677,1.51
+FD3,outbound,36,STP0445,Simpang Kedung Baruk A,0.165,0.47
+FD3,outbound,37,STP0439,SDN Kedung Baruk A,0.23,0.51
+FD3,outbound,38,STP0415,Kedung Baruk Masjid A,0.364,0.99
+FD3,outbound,39,STP0414,Kedung Baruk Gang Patung A,0.171,0.04
+FD3,outbound,40,STP0438,SD Islam Yamassa A,0.257,0.96
+FD3,outbound,41,STP0412,Kedung Asem Masjid A,0.321,0.05
+FD3,outbound,42,STP0443,Simpang Kedung Asem A,0.222,0.97
+FD3,outbound,43,STP0425,Pasar Sinar Baru A,0.266,0.5
+FD3,outbound,44,STP0417,MI Al Bukhori A,0.229,0.96
+FD3,outbound,45,STP0406,Halte Pandugo 1,0.223,0.05
+FD3,outbound,46,STP0407,Halte Pandugo 2,0.046,0.33
+FD3,outbound,47,STP0426,Pasar Wisata Penjaringan Sari A,0.187,0.59
+FD3,outbound,48,STP0441,SWK Penjaringan Sari A,0.26,0.09
+FD3,outbound,49,STP0448,Wisma Penjaringan Sari A,0.379,0.97
+FD3,outbound,50,STP0450,YKP Pandugo A,0.338,0.87
+FD3,outbound,51,STP0402,Graha YKP A,0.281,0.96
+FD3,outbound,52,STP0423,Medokan Asri Utara A,0.438,0.66
+FD3,outbound,53,STP0428,Penjaringan Asri 1 A,0.344,0.96
+FD3,outbound,54,STP0430,Penjaringan Asri 2 A,0.42,0.92
+FD3,outbound,55,STP0421,Medokan Asri Timur A,0.231,0.96
+FD3,outbound,56,STP0419,Medokan Asri Barat A,0.302,0.07
+FD3,outbound,57,STP0436,Rungkut Asri Timur A,0.267,0.97
+FD3,outbound,58,STP0434,Rektorat UPN A,0.357,0.96
+FD3,outbound,59,STP0405,Gunung Anyar Sawah A,0.195,0.07
+FD3,outbound,60,STP0440,SWK Gunung Anyar A,0.421,1.42
+FD3,outbound,61,STP0404,Gunung Anyar Jaya A,0.156,0.04
+FD3,outbound,62,STP0432,Puri Jimbaran A,0.264,0.96
+FD3,outbound,63,STP0447,Wiguna A,0.364,0.88
+FD3,outbound,64,STP0251,Wiguna Tengah A,0.334,0.18
+FD3,outbound,65,STP0247,Taman Wiguna Timur A,0.295,0.97
+FD3,outbound,66,STP0253,Wiguna Timur A,0.207,0.51
+FD3,outbound,67,STP0252,Wiguna Timur 2,0.171,0.37
+FD3,outbound,68,STP0238,Kelurahan Gunung Anyar Tambak A,0.139,0.13
+FD3,outbound,69,STP0223,Central Park A,0.345,0.87
+FD3,outbound,70,STP0230,Gunung Anyar Tambak A,0.327,0.97
+FD3,outbound,71,STP0232,Gunung Asri A,0.185,0.49
+FD3,outbound,72,STP0222,Bumi Pratama Asri A,0.135,0.14
+FD3,outbound,73,STP0224,Evergreen A,0.335,0.88
+FD3,outbound,74,STP0243,Poltekpel,0.397,0.99
+FD3,outbound,75,STP0241,Pesona Alam Gunung Anyar A,0.265,0.55
+FD3,outbound,76,STP0226,Gapercy A,0.634,1.45
+FD3,outbound,77,STP0240,MERR Gunung Anyar,0.493,1.03
+FD3,outbound,78,STP0236,Halte Gunung Anyar Timur 1,0.235,0.51
+FD3,inbound,1,STP0237,Halte Gunung Anyar Timur 2,0.0,0
+FD3,inbound,2,STP0227,Gapercy B,0.664,1
+FD3,inbound,3,STP0242,Pesona Alam Gunung Anyar B,0.564,1.53
+FD3,inbound,4,STP0245,SMPN 62,0.263,0.33
+FD3,inbound,5,STP0225,Evergreen B,0.451,1
+FD3,inbound,6,STP0222,Bumi Pratama Asri A,0.318,0.67
+FD3,inbound,7,STP0233,Gunung Asri B,0.158,0.86
+FD3,inbound,8,STP0231,Gunung Anyar Tambak B,0.176,0
+FD3,inbound,9,STP0223,Central Park A,0.313,1
+FD3,inbound,10,STP0239,Kelurahan Gunung Anyar Tambak B,0.42,0.99
+FD3,inbound,11,STP0254,Wiguna Timur B,0.315,0.66
+FD3,inbound,12,STP0248,Taman Wiguna Timur B,0.205,0.34
+FD3,inbound,13,STP0251,Wiguna Tengah A,0.241,0.54
+FD3,inbound,14,STP0244,Puri Jimbaran B,0.45,1
+FD3,inbound,15,STP0228,Gunung Anyar Jaya B,0.188,0.14
+FD3,inbound,16,STP0246,SWK Gunung Anyar B,0.462,1.5
+FD3,inbound,17,STP0229,Gunung Anyar Sawah B,0.149,0.34
+FD3,inbound,18,STP0434,Rektorat UPN A,0.22,0.53
+FD3,inbound,19,STP0437,Rungkut Asri Timur B,0.375,1
+FD3,inbound,20,STP0420,Medokan Asri Barat B,0.31,0.47
+FD3,inbound,21,STP0422,Medokan Asri Timur B,0.291,0.54
+FD3,inbound,22,STP0431,Penjaringan Asri 2 B,0.249,0.99
+FD3,inbound,23,STP0429,Penjaringan Asri 1 B,0.445,1
+FD3,inbound,24,STP0424,Medokan Asri Utara B,0.448,1
+FD3,inbound,25,STP0403,Graha YKP B,0.256,0.5
+FD3,inbound,26,STP0451,YKP Pandugo B,0.281,0.5
+FD3,inbound,27,STP0449,Wisma Penjaringan Sari B,0.258,0.53
+FD3,inbound,28,STP0442,SWK Penjaringan Sari B,0.413,0.99
+FD3,inbound,29,STP0426,Pasar Wisata Penjaringan Sari A,0.281,0.86
+FD3,inbound,30,STP0418,MI Al Bukhori B,0.37,0.99
+FD3,inbound,31,STP0425,Pasar Sinar Baru A,0.261,0.64
+FD3,inbound,32,STP0444,Simpang Kedung Asem B,0.268,0.39
+FD3,inbound,33,STP0413,Kedung Asem Masjid B,0.317,0.96
+FD3,inbound,34,STP0438,SD Islam Yamassa A,0.255,0.53
+FD3,inbound,35,STP0414,Kedung Baruk Gang Patung A,0.257,0.49
+FD3,inbound,36,STP0416,Kedung Baruk Masjid B,0.136,0.5
+FD3,inbound,37,STP0439,SDN Kedung Baruk A,0.4,1
+FD3,inbound,38,STP0446,Simpang Kedung Baruk B,0.252,0.05
+FD3,inbound,39,STP0591,Terowongan Medokan B,0.71,1.96
+FD3,inbound,40,STP0564,Medokan Semampir B,0.292,0.54
+FD3,inbound,41,STP0576,Semampir Tengah B,0.38,0.95
+FD3,inbound,42,STP0582,Semolowaru Masjid B,0.329,0.99
+FD3,inbound,43,STP0584,Semolowaru Tengah B,0.34,0.43
+FD3,inbound,44,STP0587,Simpang Semolowaru B,0.251,0.59
+FD3,inbound,45,STP0580,Semolowaru Elok B,0.337,1
+FD3,inbound,46,STP0578,Semolowaru B,0.242,0.51
+FD3,inbound,47,STP0569,Nginden Semolo B,0.436,1
+FD3,inbound,48,STP0593,UNTAG B,0.56,1.34
+FD3,inbound,49,STP0557,Makam Pumpungan B,0.485,1
+FD3,inbound,50,STP0219,Terminal Bratang,0.468,0.68
+FD3,inbound,51,STP0203,Ruko Barata Jaya,0.209,0.88
+FD3,inbound,52,STP0196,Pegadaian Bratang Binangun,0.272,0.93
+FD3,inbound,53,STP0182,Maybank Bratang Binangun,0.273,0.53
+FD3,inbound,54,STP0192,Ngagel Madya B,0.173,0.49
+FD3,inbound,55,STP0794,Krukah Timur,0.377,0.63
+FD3,inbound,56,STP0805,Pasar Krukah,0.299,0.87
+FD3,inbound,57,STP0793,Krukah Tengah,0.497,1.01
+FD3,inbound,58,STP0826,TMP Ngagel 2,0.392,0.99
+FD3,inbound,59,STP0830,UPA Jiwa,0.37,0.95
+FD3,inbound,60,STP0812,Ratna,0.238,0.53
+FD3,inbound,61,STP0801,Ngagel 1b,0.252,0.49
+FD3,inbound,62,STP0802,Novotel A,0.437,0.93
+FD3,inbound,63,STP0819,SPBU Ngagel,0.312,0.64
+FD3,inbound,64,STP0817,SDN Ngagel B,0.284,0.95
+FD3,inbound,65,STP0824,Stasiun Wonokromo B,0.706,1.5
+FD3,inbound,66,STP0811,RSI A.Yani,0.658,1.38
+FD3,inbound,67,STP0829,Terminal Intermoda Joyoboyo,1.051,2.43
+FD4,outbound,1,STP0705,RS Royal,0.0,0
+FD4,outbound,2,STP0701,Kendangsari Industri A,0.206,0.57
+FD4,outbound,3,STP0699,Kantor Pos Kendangsari A,0.789,0.65
+FD4,outbound,4,STP0706,RSIA Kendangsari A,0.419,0.71
+FD4,outbound,5,STP0748,Kendangsari A,0.588,1.14
+FD4,outbound,6,STP0709,Simpang Tenggilis Barat A,0.433,1.22
+FD4,outbound,7,STP0711,Tenggilis Barat A,0.409,0.46
+FD4,outbound,8,STP0753,Plaza Marina A,0.278,0.89
+FD4,outbound,9,STP0751,Margorejo Indah A,0.636,1.4
+FD4,outbound,10,STP0761,Superindo Margorejo A,0.852,1.37
+FD4,outbound,11,STP0752,Maspion Square,0.382,1.4
+FD4,outbound,12,STP0790,Ketintang Royal Plaza,1.192,1.54
+FD4,outbound,13,STP0811,RSI A.Yani,0.341,1
+FD4,outbound,14,STP0829,Terminal Intermoda Joyoboyo,1.051,0.86
+FD4,outbound,15,STP0788,KBS,0.601,1.05
+FD4,outbound,16,STP0795,Marmoyo,0.187,0.33
+FD4,outbound,17,STP0768,Darmokali 1,0.141,0.25
+FD4,outbound,18,STP0770,Darmokali 2a,0.306,0.53
+FD4,outbound,19,STP0810,Progo A,0.34,0.59
+FD4,outbound,20,STP0800,Ngagel 1a,0.345,0.6
+FD4,outbound,21,STP0672,Dinoyo A,0.409,0.71
+FD4,outbound,22,STP0682,Kantor Pajak Dinoyo A,0.523,0.91
+FD4,outbound,23,STP0694,Universitas Widya Mandala A,0.48,0.84
+FD4,outbound,24,STP0214,Sumbawa,0.877,1.53
+FD4,outbound,25,STP0165,Jawa,0.312,0.54
+FD4,outbound,26,STP0195,PMI Sumatera A,0.256,0.45
+FD4,outbound,27,STP0197,Pengadilan Tinggi A,0.342,0.6
+FD4,outbound,28,STP0649,Sumatera A,0.429,0.75
+FD4,outbound,29,STP0128,Legundi A,0.896,1.56
+FD4,outbound,30,STP0099,BKR Pelajar,0.501,0.87
+FD4,outbound,31,STP0122,Jimerto,0.292,0.51
+FD4,outbound,32,STP0106,GSJA Eben Haezer,0.467,0.81
+FD4,outbound,33,STP0136,RS Mata Undaan A,0.335,0.58
+FD4,outbound,34,STP0135,RS Adi Husada Undaan A,0.499,0.87
+FD4,outbound,35,STP0108,Gembong Tebasan A,1.073,1.87
+FD4,outbound,36,STP0107,Gembong Tebasan,0.32,0.56
+FD4,outbound,37,STP0522,RS Adi Husada Kapasari A,0.522,0.91
+FD4,outbound,38,STP0514,Gembong Sawahan A,0.23,0.4
+FD4,outbound,39,STP0520,Polsek Simokerto A,0.949,1.65
+FD4,outbound,40,STP0517,ITC,0.35,0.61
+FD4,outbound,41,STP0380,Pasar Atom,0.181,0.32
+FD4,outbound,42,STP0381,Pasar Atom Mall,0.219,0.38
+FD4,outbound,43,STP0280,Terminal Kasuari,1.563,2.72
+FD4,inbound,1,STP0280,Terminal Kasuari,0.0,0
+FD4,inbound,2,STP0282,Veteran,0.636,1
+FD4,inbound,3,STP0381,Pasar Atom Mall,1.1,2.51
+FD4,inbound,4,STP0517,ITC,0.274,0.32
+FD4,inbound,5,STP0521,Polsek Simokerto B,0.379,0.68
+FD4,inbound,6,STP0515,Gembong Sawahan B,0.967,2.51
+FD4,inbound,7,STP0523,RS Adi Husada Kapasari B,0.391,1
+FD4,inbound,8,STP0137,RS Mata Undaan B,2.046,2.83
+FD4,inbound,9,STP0123,Kamboja,0.245,0
+FD4,inbound,10,STP0121,Jaksa Agung Suprapto,0.486,1.51
+FD4,inbound,11,STP0113,Halte Balai Kota,0.332,0.49
+FD4,inbound,12,STP0134,Pandan,0.475,1.51
+FD4,inbound,13,STP0129,Legundi B,0.384,1
+FD4,inbound,14,STP0650,Sumatera B,0.804,1.51
+FD4,inbound,15,STP0204,Ruko Gubeng 2,0.386,1
+FD4,inbound,16,STP0217,Taman Lansia B,0.213,0.32
+FD4,inbound,17,STP0218,Taman Lansia Surabaya,0.076,0
+FD4,inbound,18,STP0205,Ruko Gubeng A,0.261,0.68
+FD4,inbound,19,STP0197,Pengadilan Tinggi A,0.243,0.83
+FD4,inbound,20,STP0195,PMI Sumatera A,0.342,0.49
+FD4,inbound,21,STP0151,Biliton 1,0.466,1.51
+FD4,inbound,22,STP0152,Biliton 2,0.408,1
+FD4,inbound,23,STP0825,Sulawesi,0.334,0.68
+FD4,inbound,24,STP0683,Kantor Pajak Dinoyo B,1.157,2
+FD4,inbound,25,STP0672,Dinoyo A,0.507,1.83
+FD4,inbound,26,STP0796,Marvell,0.266,0
+FD4,inbound,27,STP0830,UPA Jiwa,0.238,1
+FD4,inbound,28,STP0812,Ratna,0.238,0
+FD4,inbound,29,STP0810,Progo A,0.42,1.51
+FD4,inbound,30,STP0770,Darmokali 2a,0.34,0.49
+FD4,inbound,31,STP0769,Darmokali 1b,0.276,0.51
+FD4,inbound,32,STP0778,Halte Joyoboyo 2,0.523,1
+FD4,inbound,33,STP0782,Halte RSAL,1.373,2
+FD4,inbound,34,STP0744,Halte Margorejo,0.702,1.83
+FD4,inbound,35,STP0750,Margorejo 2,0.518,1
+FD4,inbound,36,STP0761,Superindo Margorejo A,0.523,1.51
+FD4,inbound,37,STP0751,Margorejo Indah A,0.852,1.68
+FD4,inbound,38,STP0753,Plaza Marina A,0.636,1.32
+FD4,inbound,39,STP0712,Tenggilis Barat B,0.343,1
+FD4,inbound,40,STP0710,Simpang Tenggilis Barat B,0.285,0.51
+FD4,inbound,41,STP0749,Kendangsari B,0.415,1
+FD4,inbound,42,STP0707,RSIA Kendangsari B,0.59,1.51
+FD4,inbound,43,STP0700,Kantor Pos Kendangsari B,0.408,1
+FD4,inbound,44,STP0702,Kendangsari Industri B,0.768,1.32
+FD4,inbound,45,STP0705,RS Royal,0.175,0.68
+FD5,outbound,1,STP0016,RS Bdh,0.0,0
+FD5,outbound,2,STP0013,Kendung A,0.58,0.46
+FD5,outbound,3,STP0468,Ngemplak A,1.576,0.8
+FD5,outbound,4,STP0470,Pasar Modern Citraland A,1.336,1.12
+FD5,outbound,5,STP0484,Taman Puspa Raya A,0.412,0.46
+FD5,outbound,6,STP0460,Kalijaran A,0.387,1
+FD5,outbound,7,STP0481,Sentra Taman Gapura A,0.513,1
+FD5,outbound,8,STP0474,Patung Kubus A,0.32,0.88
+FD5,outbound,9,STP0486,Telaga Utama 1a,0.473,1
+FD5,outbound,10,STP0324,Telaga Utama 2a,0.305,1
+FD5,outbound,11,STP0317,Sekolah Ciputra A,0.401,0.66
+FD5,outbound,12,STP0308,Niaga Gapura A,0.377,0.88
+FD5,outbound,13,STP0329,Widya Kencana A,0.156,0.46
+FD5,outbound,14,STP0294,G Walk A,0.24,0.54
+FD5,outbound,15,STP0293,G - Walk 2a,0.209,0.46
+FD5,outbound,16,STP0454,Bundaran G - Walk A,0.342,0.54
+FD5,outbound,17,STP0472,Patung Burung A,0.557,1.54
+FD5,outbound,18,STP0462,Lontar 1a,0.522,1.34
+FD5,outbound,19,STP0463,Lontar 2a,0.492,1
+FD5,outbound,20,STP0467,Molin A,0.546,1.54
+FD5,outbound,21,STP0476,RSIA Lontar A,0.331,1
+FD5,outbound,22,STP0469,Pakuwon Indah A,0.431,0.66
+FD5,outbound,23,STP0049,Graha Family Barat,0.989,2
+FD5,outbound,24,STP0058,Halte Graha Family,0.574,1.88
+FD5,outbound,25,STP0715,Bukit Darmo Boulevard,0.043,0
+FD5,outbound,26,STP0724,Halte PTC,0.621,1
+FD5,outbound,27,STP0734,Pradah Indah A,0.535,1.54
+FD5,outbound,28,STP0046,Bulu Jaya A,0.334,1
+FD5,outbound,29,STP0457,Dukuh Bulu A,0.247,0.34
+FD5,outbound,30,STP0483,Simpang Darmo Permai Selatan A,0.376,0.66
+FD5,outbound,31,STP0048,Darmo Permai Utara A,0.367,1
+FD5,outbound,32,STP0664,Polsekta Tandes A,0.292,0.88
+FD5,outbound,33,STP0615,Puncak Permai Utara,0.209,0.12
+FD5,outbound,34,STP0598,Darmo Permai III A,0.624,1.85
+FD5,outbound,35,STP0613,Pasar Modern Darmo Permai A,0.401,0.66
+FD5,outbound,36,STP0616,Ruko Darmo Permai A,0.454,1
+FD5,outbound,37,STP0600,Halte Ikado,0.665,1.36
+FD5,outbound,38,STP0606,Halte Sekolah Kristen Kalam Kudus A,0.319,0.98
+FD5,outbound,39,STP0608,Halte Simo Hilir A,0.696,1.1
+FD5,outbound,40,STP0602,Halte Kupang Jaya A,0.329,0.98
+FD5,outbound,41,STP0496,Halte Dukuh Kupang Barat A,0.362,0.97
+FD5,outbound,42,STP0052,Halte Dharma Mulya A,0.343,0.41
+FD5,outbound,43,STP0055,Halte Dukuh Kupang Barat 2a,0.428,1.08
+FD5,outbound,44,STP0074,Terminal Dukuh Kupang,0.367,1
+FD5,outbound,45,STP0064,Halte Puskesmas Dukuh Kupang A,0.307,0.86
+FD5,outbound,46,STP0495,Halte Dukuh Kupang A,0.582,1.08
+FD5,outbound,47,STP0498,Halte Islamic Center A,0.42,1
+FD5,outbound,48,STP0505,Park & Ride Mayjend Sungkono,0.468,0.85
+FD5,inbound,1,STP0505,Park & Ride Mayjend Sungkono,0.0,0
+FD5,inbound,2,STP0494,Halte Darmo Park 1,0.375,0
+FD5,inbound,3,STP0490,Bintang Diponggo A,0.262,0.1
+FD5,inbound,4,STP0491,Bintang Diponggo B,0.045,0
+FD5,inbound,5,STP0050,Halte Darmo Park 2,0.291,0
+FD5,inbound,6,STP0060,Halte Park And Ride Mayjen Sungkono B,0.327,0.1
+FD5,inbound,7,STP0059,Halte Islamic Center B,0.542,0.64
+FD5,inbound,8,STP0054,Halte Dukuh Kupang B,0.465,0.46
+FD5,inbound,9,STP0064,Halte Puskesmas Dukuh Kupang A,0.556,0.1
+FD5,inbound,10,STP0074,Terminal Dukuh Kupang,0.307,0.1
+FD5,inbound,11,STP0056,Halte Dukuh Kupang Barat 2b,0.344,0.54
+FD5,inbound,12,STP0053,Halte Dharma Mulya B,0.433,0.1
+FD5,inbound,13,STP0057,Halte Dukuh Kupang Barat B,0.284,0.44
+FD5,inbound,14,STP0603,Halte Kupang Jaya B,0.299,0.02
+FD5,inbound,15,STP0609,Halte Simo Hilir B,0.357,0.1
+FD5,inbound,16,STP0607,Halte Sekolah Kristen Kalam Kudus B,0.711,0.64
+FD5,inbound,17,STP0601,Halte Ikado B,0.27,0.1
+FD5,inbound,18,STP0072,Ruko Darmo Permai B,0.643,0.46
+FD5,inbound,19,STP0071,Pasar Modern Darmo Permai B,0.516,1.54
+FD5,inbound,20,STP0612,Pasar Modern Darmo Permai 1,0.439,0.98
+FD5,inbound,21,STP0614,Puncak Permai I B,0.364,1
+FD5,inbound,22,STP0615,Puncak Permai Utara,0.329,0.56
+FD5,inbound,23,STP0664,Polsekta Tandes A,0.209,0.44
+FD5,inbound,24,STP0048,Darmo Permai Utara A,0.292,0.56
+FD5,inbound,25,STP0073,Simpang Darmo Permai Selatan B,0.452,1
+FD5,inbound,26,STP0457,Dukuh Bulu A,0.291,0.98
+FD5,inbound,27,STP0046,Bulu Jaya A,0.247,0.02
+FD5,inbound,28,STP0734,Pradah Indah A,0.334,0.98
+FD5,inbound,29,STP0049,Graha Family Barat,0.594,1.56
+FD5,inbound,30,STP0058,Halte Graha Family,0.574,1.34
+FD5,inbound,31,STP0715,Bukit Darmo Boulevard,0.043,0
+FD5,inbound,32,STP0724,Halte PTC,0.621,1.64
+FD5,inbound,33,STP0469,Pakuwon Indah A,0.911,1.9
+FD5,inbound,34,STP0477,RSIA Lontar B,0.43,0.98
+FD5,inbound,35,STP0467,Molin A,0.332,1
+FD5,inbound,36,STP0464,Lontar 2b,0.547,1.54
+FD5,inbound,37,STP0462,Lontar 1a,0.491,1
+FD5,inbound,38,STP0473,Patung Burung B,0.502,1
+FD5,inbound,39,STP0458,Gbi Gwalk B,0.403,1
+FD5,inbound,40,STP0459,Gwalk B,0.405,0.9
+FD5,inbound,41,STP0330,Widya Kencana B,0.532,1.63
+FD5,inbound,42,STP0309,Niaga Gapura B,0.199,0.02
+FD5,inbound,43,STP0318,Sekolah Ciputra B,0.386,1
+FD5,inbound,44,STP0325,Telaga Utama 2b,0.439,1
+FD5,inbound,45,STP0323,Telaga Utama 1b,0.304,0.88
+FD5,inbound,46,STP0475,Patung Kubus B,0.473,0.98
+FD5,inbound,47,STP0482,Sentra Taman Gapura B,0.319,0.64
+FD5,inbound,48,STP0452,Bukit Golf A,0.559,1.34
+FD5,inbound,49,STP0465,Made A,1.026,2.08
+FD5,inbound,50,STP0455,Ciputra Hospital A,0.322,0.88
+FD5,inbound,51,STP0489,Universitas Ciputra,0.792,1.46
+FD5,inbound,52,STP0488,UC Loop,0.291,0.97
+FD5,inbound,53,STP0456,Ciputra Hospital B,0.79,1.15
+FD5,inbound,54,STP0466,Made B,0.273,0.44
+FD5,inbound,55,STP0453,Bukit Golf B,1.138,2.86
+FD5,inbound,56,STP0461,Kalijaran B,0.329,0.46
+FD5,inbound,57,STP0485,Taman Puspa Raya B,0.382,1
+FD5,inbound,58,STP0471,Pasar Modern Citraland B,0.507,1.02
+FD6,outbound,1,STP0829,Terminal Intermoda Joyoboyo,0.0,0
+FD6,outbound,2,STP0831,Waringin A,0.443,0.83
+FD6,outbound,3,STP0827,Taman Ronggolawe A,0.339,0.68
+FD6,outbound,4,STP0814,Rusun Gunung Sari 1,0.755,2
+FD6,outbound,5,STP0772,Gajah Mada A,0.25,0
+FD6,outbound,6,STP0803,Pasar Ikan 1,0.405,1
+FD6,outbound,7,STP0784,Jembatan Rolak A,0.481,1
+FD6,outbound,8,STP0725,Jarsongo A,1.073,2.51
+FD6,outbound,9,STP0730,Mastrip 1,0.647,1.32
+FD6,outbound,10,STP0272,Gogor 1,0.388,0.68
+FD6,outbound,11,STP0718,Gemol 1,0.527,1.83
+FD6,outbound,12,STP0741,Universitas Wijaya Putra,0.597,1
+FD6,outbound,13,STP0737,SWK Wiyung A,0.429,1
+FD6,outbound,14,STP0727,Kecamatan Wiyung 1,0.312,0.51
+FD6,outbound,15,STP0739,Taman Mozaik 1,0.651,1.97
+FD6,outbound,16,STP0732,Pondok Rosan 1,0.598,1.02
+FD6,outbound,17,STP0721,Graha Sampoerna Indah,0.56,1.49
+FD6,outbound,18,STP0735,Royal Residence A,0.582,1.03
+FD6,outbound,19,STP0722,Griya Babatan Mukti 1,0.382,0.98
+FD6,outbound,20,STP0288,Babatan Indah,0.393,0.84
+FD6,outbound,21,STP0285,Babatan 1,0.22,0.97
+FD6,outbound,22,STP0286,Babatan Gang Musholla A,0.245,0.03
+FD6,outbound,23,STP0297,Halte UNESA,0.976,2.49
+FD6,outbound,24,STP0715,Bukit Darmo Boulevard,0.881,1.97
+FD6,outbound,25,STP0724,Halte PTC,0.621,1.05
+FD6,outbound,26,STP0049,Graha Family Barat,0.084,0.46
+FD6,outbound,27,STP0058,Halte Graha Family,0.574,1.33
+FD6,outbound,28,STP0716,Bundaran UNESA,0.86,1.68
+FD6,outbound,29,STP0714,Babatan Gang Musholla B,0.984,1.98
+FD6,outbound,30,STP0285,Babatan 1,0.245,0.81
+FD6,outbound,31,STP0287,Babatan Indah,0.323,0.67
+FD6,outbound,32,STP0328,Villa Bukit Mas 2,0.239,0.81
+FD6,outbound,33,STP0304,Lembah Harapan A,0.31,0.52
+FD6,outbound,34,STP0316,SMPN 28 2,0.575,1.49
+FD6,outbound,35,STP0311,Prambanan Residence A,0.32,0.67
+FD6,outbound,36,STP0291,Bank Jatim Lidah Kulon A,0.453,1.02
+FD6,outbound,37,STP0306,Lidah Kulon A,0.535,1.32
+FD6,outbound,38,STP0319,Sepat Lidah Kulon 1a,0.386,0.54
+FD6,outbound,39,STP0333,Wisma Lidah Kulon A,0.096,0.3
+FD6,outbound,40,STP0332,Wisma Lidah Kulon A,0.228,0.67
+FD6,outbound,41,STP0295,Gkri Calvary A,0.346,0.94
+FD6,outbound,42,STP0326,Terminal Lidah Kulon,0.457,1
+FD6,outbound,43,STP0296,Gkri Calvary B,0.44,0.87
+FD6,outbound,44,STP0331,Wisma Lidah Kulon 2 B,0.362,0.68
+FD6,outbound,45,STP0334,Wisma Lidah Kulon B,0.19,0.32
+FD6,outbound,46,STP0313,SDN Lidah Kulon 1 A,0.201,0.67
+FD6,outbound,47,STP0320,Sepat Lidah Kulon 2 A,0.348,0.98
+FD6,outbound,48,STP0283,BRI Lakarsantri A,0.493,1
+FD6,outbound,49,STP0300,Kantor Kelurahan Jeruk A,0.418,0.86
+FD6,outbound,50,STP0298,Jeruk A,0.308,0.94
+FD6,outbound,51,STP0289,Banjar Melati A,0.517,1.02
+FD6,outbound,52,STP0302,Lakarsantri A,0.495,1.44
+FD6,inbound,1,STP0310,Pmk Lakarsantri,0.0,0
+FD6,inbound,2,STP0303,Lakarsantri B,0.256,0
+FD6,inbound,3,STP0290,Banjar Melati B,0.493,1
+FD6,inbound,4,STP0299,Jeruk B,0.526,1.52
+FD6,inbound,5,STP0301,Kantor Kelurahan Jeruk B,0.39,1
+FD6,inbound,6,STP0284,BRI Lakarsantri B,0.349,0.85
+FD6,inbound,7,STP0321,Sepat Lidah Kulon 2 B,0.48,1
+FD6,inbound,8,STP0314,SDN Lidah Kulon 1 B,0.329,1
+FD6,inbound,9,STP0322,Sepat Lidah Kulon B,0.266,0.15
+FD6,inbound,10,STP0306,Lidah Kulon A,0.361,0.85
+FD6,inbound,11,STP0292,Bank Jatim Lidah Kulon B,0.493,1.52
+FD6,inbound,12,STP0312,Prambanan Residence B,0.383,1
+FD6,inbound,13,STP0315,SMPN 28 1,0.435,1
+FD6,inbound,14,STP0307,Lidah Wetan B,0.318,0.67
+FD6,inbound,15,STP0305,Lembah Harapan B,0.261,0.33
+FD6,inbound,16,STP0327,Villa Bukit Mas 1,0.294,1
+FD6,inbound,17,STP0288,Babatan Indah,0.326,0.52
+FD6,inbound,18,STP0285,Babatan 1,0.22,0.48
+FD6,inbound,19,STP0286,Babatan Gang Musholla A,0.245,0.52
+FD6,inbound,20,STP0297,Halte UNESA,0.976,1.98
+FD6,inbound,21,STP0715,Bukit Darmo Boulevard,0.881,1.98
+FD6,inbound,22,STP0724,Halte PTC,0.621,1.52
+FD6,inbound,23,STP0049,Graha Family Barat,0.084,0.02
+FD6,inbound,24,STP0058,Halte Graha Family,0.574,1.84
+FD6,inbound,25,STP0716,Bundaran UNESA,0.86,1.67
+FD6,inbound,26,STP0714,Babatan Gang Musholla B,0.984,1.87
+FD6,inbound,27,STP0285,Babatan 1,0.245,0.97
+FD6,inbound,28,STP0723,Griya Babatan Mukti 2,0.497,1
+FD6,inbound,29,STP0736,Royal Residence B,0.378,1
+FD6,inbound,30,STP0717,Dukuh Karangan,0.601,1.03
+FD6,inbound,31,STP0733,Pondok Rosan 2,0.609,1.49
+FD6,inbound,32,STP0740,Taman Mozaik 2,0.498,1.02
+FD6,inbound,33,STP0728,Kecamatan Wiyung 2,0.669,1.8
+FD6,inbound,34,STP0738,SWK Wiyung B,0.293,0.66
+FD6,inbound,35,STP0729,Keramat,0.485,1.02
+FD6,inbound,36,STP0719,Gemol 2,0.596,1.33
+FD6,inbound,37,STP0720,Gogor 2,0.522,1.52
+FD6,inbound,38,STP0731,Mastrip 2,0.256,0.05
+FD6,inbound,39,STP0726,Jarsongo B,0.628,1.93
+FD6,inbound,40,STP0069,Jogoloyo B,0.294,0.56
+FD6,inbound,41,STP0785,Jembatan Rolak B,0.902,1.97
+FD6,inbound,42,STP0804,Pasar Ikan 2,0.564,1.05
+FD6,inbound,43,STP0773,Gajah Mada B,0.348,0.95
+FD6,inbound,44,STP0815,Rusun Gunung Sari 2,0.225,0.54
+FD6,inbound,45,STP0828,Taman Ronggolawe B,0.737,1.75
+FD6,inbound,46,STP0832,Waringin B,0.316,0.56
+FD6,inbound,47,STP0788,KBS,0.954,2.1
+FD6,inbound,48,STP0795,Marmoyo,0.187,0.38
+FD6,inbound,49,STP0811,RSI A.Yani,1.538,2
+FD6,inbound,50,STP0829,Terminal Intermoda Joyoboyo,1.051,2.48
+FD7,outbound,1,STP0219,Terminal Bratang,0.0,0
+FD7,outbound,2,STP0203,Ruko Barata Jaya,0.209,0
+FD7,outbound,3,STP0196,Pegadaian Bratang Binangun,0.272,1
+FD7,outbound,4,STP0182,Maybank Bratang Binangun,0.273,0.51
+FD7,outbound,5,STP0189,Ngagel Jaya Tengah A,0.359,1
+FD7,outbound,6,STP0190,Ngagel Jaya Utara A,0.333,1
+FD7,outbound,7,STP0166,Kalibokor Selatan A,0.399,0.83
+FD7,outbound,8,STP0361,Menur A,0.262,0.17
+FD7,outbound,9,STP0176,Manyar Airdas A,0.27,0.83
+FD7,outbound,10,STP0177,Manyar Dukuh A,0.278,1
+FD7,outbound,11,STP0180,Manyar Sabrangan,0.361,0.68
+FD7,outbound,12,STP0159,Halte Kertajaya 2,0.439,1
+FD7,outbound,13,STP0173,Kertajaya Masjid A,0.682,1.32
+FD7,outbound,14,STP0148,BTPN Kertajaya A,0.441,0.68
+FD7,outbound,15,STP0771,Flores A,0.37,0.83
+FD7,outbound,16,STP0825,Sulawesi,0.278,1
+FD7,outbound,17,STP0214,Sumbawa,0.258,0.51
+FD7,outbound,18,STP0202,Raya Gubeng,0.427,1
+FD7,outbound,19,STP0218,Taman Lansia Surabaya,0.427,1
+FD7,outbound,20,STP0205,Ruko Gubeng A,0.261,0.97
+FD7,outbound,21,STP0649,Sumatera A,0.223,0.03
+FD7,outbound,22,STP0130,Monkasel,0.341,0.98
+FD7,outbound,23,STP0117,Halte Pemuda,0.238,0.81
+FD7,outbound,24,STP0146,Yos Sudarso,0.391,0.7
+FD7,outbound,25,STP0100,Balai Kota B,0.448,0.98
+FD7,outbound,26,STP0122,Jimerto,0.372,1
+FD7,outbound,27,STP0121,Jaksa Agung Suprapto,0.226,0.33
+FD7,outbound,28,STP0143,Taman Prestasi,0.589,1.68
+FD7,outbound,29,STP0111,Gondosuli,0.413,0.84
+FD7,outbound,30,STP0124,Kantor Dinas Pendidikan,0.397,0.98
+FD7,outbound,31,STP0109,Genteng Kali A,0.291,0.97
+FD7,outbound,32,STP0102,Cak Durasim A,0.28,0.54
+FD7,outbound,33,STP0131,Mpp Siola A,0.174,0.17
+FD7,outbound,34,STP0118,Halte Siola,0.187,0.79
+FD7,outbound,35,STP0120,Halte Tunjungan,0.413,1
+FD7,outbound,36,STP0675,Halte Embong Malang,0.261,0.05
+FD7,outbound,37,STP0673,Embong Malang 2,0.517,1.46
+FD7,outbound,38,STP0511,Sindoro,0.257,0.52
+FD7,outbound,39,STP0022,Halte Blauran,0.313,0.81
+FD7,outbound,40,STP0029,Pirngadi A,0.343,0.67
+FD7,outbound,41,STP0031,SMKN 7,0.392,0.98
+FD7,outbound,42,STP0020,Graha Bunda Paud,0.282,0.81
+FD7,outbound,43,STP0033,Semarang,0.199,0.21
+FD7,outbound,44,STP0034,Stasiun Pasar Turi,0.211,0.79
+FD7,inbound,1,STP0034,Stasiun Pasar Turi,0.0,0
+FD7,inbound,2,STP0030,Raden Saleh,0.215,0
+FD7,inbound,3,STP0032,SMPN 43,0.181,0.83
+FD7,inbound,4,STP0024,Koblen,0.173,0.17
+FD7,inbound,5,STP0028,Pirngadi,0.243,0
+FD7,inbound,6,STP0026,Museum Dr. Soetomo,0.317,0.51
+FD7,inbound,7,STP0027,Penghela,0.277,1
+FD7,inbound,8,STP0018,Carikan,0.194,0
+FD7,inbound,9,STP0021,Halte Alun Alun Contong,0.256,1
+FD7,inbound,10,STP0019,Gemblongan,0.294,0.32
+FD7,inbound,11,STP0025,Mpp Siola B,0.322,0.68
+FD7,inbound,12,STP0103,Cak Durasim B,0.119,0.83
+FD7,inbound,13,STP0110,Genteng Kali B,0.375,0.68
+FD7,inbound,14,STP0132,Ngemplak,0.472,1
+FD7,inbound,15,STP0127,Ketabang Ngemplak,0.194,0.32
+FD7,inbound,16,STP0145,Wuni,0.221,0.68
+FD7,inbound,17,STP0113,Halte Balai Kota,0.445,1
+FD7,inbound,18,STP0140,Slamet,0.476,0.83
+FD7,inbound,19,STP0650,Sumatera B,0.586,1.68
+FD7,inbound,20,STP0150,Banda A,0.164,0.32
+FD7,inbound,21,STP0648,Stasiun Gubeng Baru,0.422,1
+FD7,inbound,22,STP0150,Banda A,0.422,1
+FD7,inbound,23,STP0204,Ruko Gubeng 2,0.235,0.51
+FD7,inbound,24,STP0217,Taman Lansia B,0.213,0.32
+FD7,inbound,25,STP0151,Biliton 1,0.336,0.68
+FD7,inbound,26,STP0152,Biliton 2,0.408,0.98
+FD7,inbound,27,STP0154,Flores B,0.159,0.51
+FD7,inbound,28,STP0149,BTPN Kertajaya B,0.34,0.49
+FD7,inbound,29,STP0174,Kertajaya Masjid B,0.352,1
+FD7,inbound,30,STP0158,Halte Kertajaya 1,0.743,1.52
+FD7,inbound,31,STP0366,Pasar Manyar,0.505,1.3
+FD7,inbound,32,STP0357,Manyar Dukuh B,0.34,0.68
+FD7,inbound,33,STP0356,Manyar Airdas B,0.285,0.81
+FD7,inbound,34,STP0362,Menur B,0.278,0.68
+FD7,inbound,35,STP0167,Kalibokor Selatan B,0.325,0.83
+FD7,inbound,36,STP0190,Ngagel Jaya Utara A,0.378,0.51
+FD7,inbound,37,STP0189,Ngagel Jaya Tengah A,0.333,0.98
+FD7,inbound,38,STP0220,UBAYA Ngagel,0.267,0.52
+FD7,inbound,39,STP0588,Taman Flora,0.296,0.97
+FD7,inbound,40,STP0558,Manyar,0.48,1
+FD7,inbound,41,STP0219,Terminal Bratang,0.155,0.05
+FD8,outbound,1,STP0297,Halte UNESA,0.0,0
+FD8,outbound,2,STP0715,Bukit Darmo Boulevard,0.881,1.49
+FD8,outbound,3,STP0724,Halte PTC,0.621,1.31
+FD8,outbound,4,STP0067,Halte Yono Suwoyo 1,0.799,1.69
+FD8,outbound,5,STP0612,Pasar Modern Darmo Permai 1,1.634,2.49
+FD8,outbound,6,STP0628,Tanjungsari B,2.186,2
+FD8,outbound,7,STP0665,Samsat Tandes 1,0.853,0.79
+FD8,outbound,8,STP0667,Sentong Asri 1,1.159,3
+FD8,outbound,9,STP0003,Margomulyo Indah 1,1.301,1.49
+FD8,outbound,10,STP0001,Margomulyo 1,1.587,2
+FD8,outbound,11,STP0005,Pkb Tandes 1,0.489,1.49
+FD8,outbound,12,STP0007,Simpang Margomulyo 1,0.39,0.97
+FD8,outbound,13,STP0009,Tambak Sarioso A,2.31,3
+FD8,outbound,14,STP0017,Terminal Osowilangun,2.312,3.56
+FD8,inbound,1,STP0017,Terminal Osowilangun,0.0,0
+FD8,inbound,2,STP0010,Tambak Sarioso B,2.381,1.11
+FD8,inbound,3,STP0008,Simpang Margomulyo 2,2.3,1.75
+FD8,inbound,4,STP0006,Pkb Tandes 2,0.537,1.36
+FD8,inbound,5,STP0002,Margomulyo 2,0.438,0.93
+FD8,inbound,6,STP0004,Margomulyo Indah 2,1.581,2.5
+FD8,inbound,7,STP0668,Sentong Asri 2,1.162,2.04
+FD8,inbound,8,STP0666,Samsat Tandes 2,1.203,2.57
+FD8,inbound,9,STP0598,Darmo Permai III A,2.412,3.43
+FD8,inbound,10,STP0068,Halte Yono Suwoyo 2,1.697,2
+FD8,inbound,11,STP0049,Graha Family Barat,0.79,1.89
+FD8,inbound,12,STP0058,Halte Graha Family,0.574,1.5
+FD8,inbound,13,STP0716,Bundaran UNESA,0.86,1.93
+FD9,outbound,1,STP0097,Terminal Menanggal,0.0,0
+FD9,outbound,2,STP0093,Simpang Menanggal,0.321,0
+FD9,outbound,3,STP0089,SWK Dukuh Menanggal,0.467,1.51
+FD9,outbound,4,STP0075,Dukuh Menanggal,0.151,0.32
+FD9,outbound,5,STP0079,Kantor Dinas Perhubungan Jawa Timur,0.408,0.68
+FD9,outbound,6,STP0078,Gpt Kristus Menanggal,0.384,1
+FD9,outbound,7,STP0080,Kantor Dpw Pkb Jatim,0.425,1
+FD9,outbound,8,STP0077,Gayungsari Timur,0.42,1
+FD9,outbound,9,STP0076,Gayungsari Barat,0.19,0.51
+FD9,outbound,10,STP0088,SMPN 22,0.374,1
+FD9,outbound,11,STP0260,Masjid Al Akbar Surabaya,0.441,1
+FD9,outbound,12,STP0261,Pagesangan Indah A,0.459,0.83
+FD9,outbound,13,STP0263,Pasar Pagesangan A,0.225,0.49
+FD9,outbound,14,STP0258,Kebonsari Tengah A,0.298,0.51
+FD9,outbound,15,STP0268,SD Darul Ulum A,0.39,1
+FD9,outbound,16,STP0257,Jambangan Kebon Agung Asri A,0.683,1.51
+FD9,outbound,17,STP0255,Jambangan Indah A,0.599,1.49
+FD9,outbound,18,STP0271,Universitas Merdeka A,0.484,1.51
+FD9,outbound,19,STP0266,Puri Kencana A,0.437,0.83
+FD9,outbound,20,STP0269,SMP Baitussalam A,0.471,1
+FD9,outbound,21,STP0091,Sekolah Al Falah Ketintang A,0.613,1.68
+FD9,outbound,22,STP0085,SDN Ketintang 1 A,0.589,1
+FD9,outbound,23,STP0791,Ketintang Tengah A,0.282,0.83
+FD9,outbound,24,STP0096,Telkom University A,0.369,1
+FD9,outbound,25,STP0786,Jetis Kulon A,0.404,1
+FD9,outbound,26,STP0790,Ketintang Royal Plaza,0.468,1
+FD9,outbound,27,STP0811,RSI A.Yani,0.341,0.51
+FD9,outbound,28,STP0829,Terminal Intermoda Joyoboyo,1.051,2
+FD9,outbound,29,STP0788,KBS,0.601,2
+FD9,outbound,30,STP0766,Ciliwung A,0.527,1
+FD9,outbound,31,STP0821,Simpang Adityawarman A,0.51,1
+FD9,outbound,32,STP0779,Halte KPU,0.689,1.51
+FD9,outbound,33,STP0070,Mayjend Sungkono,1.082,2.51
+FD9,outbound,34,STP0050,Halte Darmo Park 2,0.533,1
+FD9,outbound,35,STP0065,Halte Taman Makam Pahlawan,0.962,2
+FD9,outbound,36,STP0605,Halte Putat Gede 2,1.832,2.83
+FD9,outbound,37,STP0604,Halte Putat Gede 1,0.047,0
+FD9,outbound,38,STP0599,Darmo Permai Timur A,0.371,0.68
+FD9,outbound,39,STP0623,Simpang Darmo Baru Barat A,0.503,1.32
+FD9,outbound,40,STP0600,Halte Ikado,0.835,1.51
+FD9,outbound,41,STP0625,Sukomanunggal Jaya A,0.297,1
+FD9,outbound,42,STP0610,Kejaksaan Negeri Surabaya A,0.753,1.51
+FD9,outbound,43,STP0617,Satelit Indah A,0.516,1
+FD9,outbound,44,STP0619,Satelit Utara A,0.5,1
+FD9,outbound,45,STP0655,Darmo Indah Timur A,0.651,1.83
+FD9,outbound,46,STP0657,Kantor Imigrasi Tanjung Perak A,0.432,1
+FD9,outbound,47,STP0661,Karangpoh B,0.396,0.68
+FD9,outbound,48,STP0669,Terminal Balongsari,0.677,1.83
+FD9,outbound,49,STP0478,SMKN 13 A,0.939,2
+FD9,outbound,50,STP0480,SMPN 47 A,0.249,0.51
+FD9,outbound,51,STP0487,Terminal Manukan,1.013,2
+FD9,inbound,1,STP0487,Terminal Manukan,0.0,0
+FD9,inbound,2,STP0480,SMPN 47 A,1.013,1.51
+FD9,inbound,3,STP0479,SMKN 13 B,0.252,1
+FD9,inbound,4,STP0669,Terminal Balongsari,0.927,1.83
+FD9,inbound,5,STP0654,Bibis B,0.126,0.17
+FD9,inbound,6,STP0653,Bibis A,0.037,0
+FD9,inbound,7,STP0660,Karangpoh A,0.752,1.83
+FD9,inbound,8,STP0657,Kantor Imigrasi Tanjung Perak A,0.447,1
+FD9,inbound,9,STP0656,Darmo Indah Timur B,0.431,0.68
+FD9,inbound,10,STP0620,Satelit Utara B,0.598,1.83
+FD9,inbound,11,STP0618,Satelit Indah B,0.558,1
+FD9,inbound,12,STP0611,Kejaksaan Negeri Surabaya B,0.499,1
+FD9,inbound,13,STP0626,Sukomanunggal Jaya B,0.751,1.51
+FD9,inbound,14,STP0601,Halte Ikado B,0.415,1
+FD9,inbound,15,STP0624,Simpang Darmo Baru Barat B,0.753,2
+FD9,inbound,16,STP0047,Darmo Permai Timur B,0.604,1
+FD9,inbound,17,STP0066,Halte Taman Makam Pahlawan 1,1.315,1.83
+FD9,inbound,18,STP0505,Park & Ride Mayjend Sungkono,1.033,2.51
+FD9,inbound,19,STP0494,Halte Darmo Park 1,0.375,1
+FD9,inbound,20,STP0497,Halte Gedung Juang 45,0.515,1
+FD9,inbound,21,STP0783,Indragiri,1.096,2.51
+FD9,inbound,22,STP0822,Simpang Adityawarman B,0.705,1
+FD9,inbound,23,STP0766,Ciliwung A,0.472,1
+FD9,inbound,24,STP0795,Marmoyo,0.712,1.83
+FD9,inbound,25,STP0778,Halte Joyoboyo 2,0.41,0.68
+FD9,inbound,26,STP0818,SMPN 32,1.358,2
+FD9,inbound,27,STP0787,Jetis Kulon B,0.284,0.83
+FD9,inbound,28,STP0082,Ketintang Timur Ptt,0.326,0.68
+FD9,inbound,29,STP0096,Telkom University A,0.262,1
+FD9,inbound,30,STP0791,Ketintang Tengah A,0.369,0.32
+FD9,inbound,31,STP0085,SDN Ketintang 1 A,0.282,0.68
+FD9,inbound,32,STP0092,Sekolah Al Falah Ketintang B,0.6,1.83
+FD9,inbound,33,STP0270,SMP Baitussalam B,0.593,1
+FD9,inbound,34,STP0267,Puri Kencana B,0.501,1
+FD9,inbound,35,STP0271,Universitas Merdeka A,0.438,1.51
+FD9,inbound,36,STP0256,Jambangan Indah B,0.481,1
+FD9,inbound,37,STP0257,Jambangan Kebon Agung Asri A,0.583,1
+FD9,inbound,38,STP0268,SD Darul Ulum A,0.683,1.83
+FD9,inbound,39,STP0259,Kebonsari Tengah B,0.363,0.68
+FD9,inbound,40,STP0264,Pasar Pagesangan B,0.308,1
+FD9,inbound,41,STP0262,Pagesangan Indah B,0.204,0
+FD9,inbound,42,STP0265,Pasar Rakyat Jambangan,0.507,1.32
+FD9,inbound,43,STP0090,SWK Gayungan,0.436,1.19
+FD9,inbound,44,STP0086,SDN Menanggal 601,0.321,0.49
+FD9,inbound,45,STP0087,SMAN 15,0.244,0.83
+FD9,inbound,46,STP0097,Terminal Menanggal,0.568,1
+FD10,outbound,1,STP0589,Terminal Keputih,0.0,0
+FD10,outbound,2,STP0528,Bumi Marina Emas A,0.351,0
+FD10,outbound,3,STP0553,LPMK Keputih A,0.444,1
+FD10,outbound,4,STP0546,Keputih Makam A,0.394,1
+FD10,outbound,5,STP0595,Universitas Hang Tuah,0.49,1
+FD10,outbound,6,STP0596,Vita School A,0.616,1.52
+FD10,outbound,7,STP0594,Unipra,0.723,1.52
+FD10,outbound,8,STP0544,Halte Univ. Katolik Darma Cendekia,0.532,1.33
+FD10,outbound,9,STP0534,Halte ITATS,0.051,0
+FD10,outbound,10,STP0545,ITATS 2,0.306,0.67
+FD10,outbound,11,STP0565,Narotama A,0.395,1
+FD10,outbound,12,STP0532,GIKI 3 A,0.343,0.85
+FD10,outbound,13,STP0551,Klampis Jaya A,0.654,1.15
+FD10,outbound,14,STP0345,Halte Klampis,0.365,0.85
+FD10,outbound,15,STP0360,Manyar Tirtoyoso A,0.635,1.67
+FD10,outbound,16,STP0359,Manyar Kertoarjo A,0.658,1.33
+FD10,outbound,17,STP0170,Karang Menjangan A,1.739,4.04
+FD10,outbound,18,STP0198,Politeknik Kesehatan A,0.448,1
+FD10,outbound,19,STP0652,Universitas Airlangga Kampus A,0.439,1
+FD10,outbound,20,STP0645,SMAN 4 Surabaya,0.337,1
+FD10,outbound,21,STP0648,Stasiun Gubeng Baru,0.322,0.85
+FD10,outbound,22,STP0630,Indrakila,0.74,1.67
+FD10,outbound,23,STP0631,Indrakila 2,0.281,0.33
+FD10,outbound,24,STP0633,Kalasan,0.278,0.67
+FD10,outbound,25,STP0647,Simpang Kalasan,0.382,0.85
+FD10,outbound,26,STP0632,Jolotundo,0.385,1
+FD10,outbound,27,STP0637,Mardi Putera A,0.339,0.67
+FD10,outbound,28,STP0643,SDN Pacar Kembang 1 A,0.401,1
+FD10,outbound,29,STP0640,Ploso,0.509,1
+FD10,outbound,30,STP0634,Karang Empat Besar A,0.547,1.33
+FD10,outbound,31,STP0641,Rangkah A,0.418,1
+FD10,outbound,32,STP0518,Jalan Kenjeran 120,1.451,1.85
+FD10,outbound,33,STP0524,RSUD Dr. Mohammad Sowandhi,0.493,1
+FD10,outbound,34,STP0516,Graha Adyatma,0.126,0
+FD10,outbound,35,STP0514,Gembong Sawahan A,1.049,2.33
+FD10,outbound,36,STP0520,Polsek Simokerto A,0.949,2
+FD10,outbound,37,STP0517,ITC,0.35,1
+FD10,outbound,38,STP0380,Pasar Atom,0.181,0
+FD10,outbound,39,STP0381,Pasar Atom Mall,0.219,0.33
+FD10,inbound,1,STP0381,Pasar Atom Mall,0.0,0
+FD10,inbound,2,STP0521,Polsek Simokerto B,0.594,0.68
+FD10,inbound,3,STP0515,Gembong Sawahan B,0.967,1.32
+FD10,inbound,4,STP0524,RSUD Dr. Mohammad Sowandhi,1.189,2.68
+FD10,inbound,5,STP0516,Graha Adyatma,0.126,0
+FD10,inbound,6,STP0519,Kenjeran Rangkah,0.467,1
+FD10,inbound,7,STP0642,Rangkah B,1.537,2.34
+FD10,inbound,8,STP0635,Karang Empat Besar B,0.472,1
+FD10,inbound,9,STP0646,SWK Kapas Krampung,0.466,1
+FD10,inbound,10,STP0644,SDN Pacar Kembang 1 B,0.546,1.83
+FD10,inbound,11,STP0638,Mardi Putera B,0.433,0.68
+FD10,inbound,12,STP0639,Pasar Pacar Keling,0.625,1.49
+FD10,inbound,13,STP0651,Tambang Boyo,0.54,1.51
+FD10,inbound,14,STP0652,Universitas Airlangga Kampus A,0.354,0.83
+FD10,inbound,15,STP0199,Politeknik Kesehatan B,0.476,1
+FD10,inbound,16,STP0171,Karang Menjangan B,0.421,1
+FD10,inbound,17,STP0168,Kalidami B,0.703,1.51
+FD10,inbound,18,STP0350,Halte Samsat Manyar,0.754,1.17
+FD10,inbound,19,STP0178,Manyar Kertoarjo B,0.461,1.51
+FD10,inbound,20,STP0181,Manyar Tirtoyoso B,0.63,1.32
+FD10,inbound,21,STP0340,Halte KONI 1,0.774,1.51
+FD10,inbound,22,STP0552,Klampis Jaya B,0.414,1
+FD10,inbound,23,STP0533,GIKI 3 B,0.639,1.83
+FD10,inbound,24,STP0566,Narotama B,0.299,0.17
+FD10,inbound,25,STP0572,Puskesmas Klampis Ngasem,0.344,1
+FD10,inbound,26,STP0539,Halte SMPN 19,0.295,0.83
+FD10,inbound,27,STP0536,Halte Kopertis,0.052,0
+FD10,inbound,28,STP0531,Convention Hall ARH,0.495,1
+FD10,inbound,29,STP0597,Vita School B,0.741,1.49
+FD10,inbound,30,STP0562,Medical Center ITS,0.581,1.51
+FD10,inbound,31,STP0547,Keputih Makam B,0.483,0.81
+FD10,inbound,32,STP0553,LPMK Keputih A,0.414,1
+FD10,inbound,33,STP0548,Keputih Tegal Timur 1a,0.648,1.51
+FD10,inbound,34,STP0550,Keputih Tegal Timur 2a,0.423,0.49
+FD10,inbound,35,STP0525,Apartemen Dian Sukolilo Regency,0.815,1.83
+FD10,inbound,36,STP0585,Simpang Keputih Tegal Timur,0.33,1
+FD10,inbound,37,STP0550,Keputih Tegal Timur 2a,0.643,1.32
+FD10,inbound,38,STP0549,Keputih Tegal Timur 1b,0.499,1
+FD10,inbound,39,STP0529,Bumi Marina Emas B,0.233,0.32
+FD10,inbound,40,STP0589,Terminal Keputih,0.373,1
+FD11,outbound,1,STP0219,Terminal Bratang,0.0,0
+FD11,outbound,2,STP0210,Simpang Barata Jaya 1,0.245,0
+FD11,outbound,3,STP0211,Simpang Barata Jaya 2,0.527,1
+FD11,outbound,4,STP0163,Hotel Narita Barata Jaya,0.329,1
+FD11,outbound,5,STP0193,Nginden A,0.264,0.52
+FD11,outbound,6,STP0194,Nginden Kota A,0.449,1
+FD11,outbound,7,STP0216,Taman Flora A,0.903,2
+FD11,outbound,8,STP0175,Manyar 2 A,0.423,0.67
+FD11,outbound,9,STP0179,Manyar Medical Centre A,0.313,0.33
+FD11,outbound,10,STP0361,Menur A,0.485,1
+FD11,outbound,11,STP0362,Menur B,0.049,0
+FD11,outbound,12,STP0573,STIESIA A,0.637,1.52
+FD11,outbound,13,STP0560,Manyar Indah A,0.615,1.15
+FD11,outbound,14,STP0566,Narotama B,0.67,1.85
+FD11,outbound,15,STP0572,Puskesmas Klampis Ngasem,0.344,0.52
+FD11,outbound,16,STP0539,Halte SMPN 19,0.295,1
+FD11,outbound,17,STP0536,Halte Kopertis,0.052,0
+FD11,outbound,18,STP0531,Convention Hall ARH,0.495,1
+FD11,outbound,19,STP0526,Apartemen Puncak Kertajaya A,0.559,1
+FD11,outbound,20,STP0535,Halte ITS,1.237,2.85
+FD11,outbound,21,STP0530,Bundaran ITS,0.069,0.15
+FD11,outbound,22,STP0571,PENS 2,0.722,1.52
+FD11,outbound,23,STP0376,Wisma Permai A,0.697,1.85
+FD11,outbound,24,STP0371,Sutorejo Indah A,0.672,1
+FD11,outbound,25,STP0363,Mulyosari Mapan A,0.498,1.52
+FD11,outbound,26,STP0374,Universitas Widya Kartika A,0.778,1.48
+FD11,outbound,27,STP0036,Halte Kenpark,1.113,2.52
+FD11,outbound,28,STP0037,Kantor Kelurahan Sukolilo Baru A,1.449,2.52
+FD11,outbound,29,STP0042,Sukolilo Lor,0.379,1
+FD11,outbound,30,STP0043,THP Kenjeran,0.405,1
+FD11,outbound,31,STP0044,THP Kenjeran Utara A,0.494,1.85
+FD11,outbound,32,STP0038,Pantai Batu Batu Kenjeran A,1.142,2.52
+FD11,outbound,33,STP0041,Shelter Bulak,0.662,1
+FD11,inbound,1,STP0041,Shelter Bulak,0.0,0
+FD11,inbound,2,STP0039,Pantai Batu Batu Kenjeran B,0.703,1
+FD11,inbound,3,STP0045,THP Kenjeran Utara B,1.107,2.52
+FD11,inbound,4,STP0040,SD Muhammadiyah 9,1.047,2
+FD11,inbound,5,STP0036,Halte Kenpark,1.672,2.52
+FD11,inbound,6,STP0375,Universitas Widya Kartika B,1.13,2
+FD11,inbound,7,STP0364,Mulyosari Mapan B,0.795,1.85
+FD11,inbound,8,STP0372,Sutorejo Indah B,0.473,1
+FD11,inbound,9,STP0377,Wisma Permai B,0.616,1.52
+FD11,inbound,10,STP0570,PENS 1,0.744,2
+FD11,inbound,11,STP0535,Halte ITS,0.698,1
+FD11,inbound,12,STP0527,Apartemen Puncak Kertajaya B,1.419,2.37
+FD11,inbound,13,STP0594,Unipra,0.506,1
+FD11,inbound,14,STP0544,Halte Univ. Katolik Darma Cendekia,0.532,1
+FD11,inbound,15,STP0534,Halte ITATS,0.051,0.15
+FD11,inbound,16,STP0545,ITATS 2,0.306,0.85
+FD11,inbound,17,STP0565,Narotama A,0.395,1
+FD11,inbound,18,STP0560,Manyar Indah A,0.665,1.52
+FD11,inbound,19,STP0574,STIESIA B,0.648,1
+FD11,inbound,20,STP0561,Manyar Medical Centre B,0.592,1.52
+FD11,inbound,21,STP0559,Manyar 2 B,0.346,1
+FD11,inbound,22,STP0588,Taman Flora,0.481,1
+FD11,inbound,23,STP0558,Manyar,0.48,1
+FD11,inbound,24,STP0219,Terminal Bratang,0.155,0.33
+FD12,outbound,1,STP0713,Terminal Purabaya,0.0,0
+FD12,outbound,2,STP0249,UINSA Kampus 2 Stop 1,8.956,9.02
+FD12,outbound,3,STP0236,Halte Gunung Anyar Timur 1,0.566,1.32
+FD12,outbound,4,STP0234,Halte Gunung Anyar Lor 1,0.95,1.6
+FD12,outbound,5,STP0409,Halte Rungkut Madya 1,0.431,1
+FD12,outbound,6,STP0427,Penjaringan Asri 1,0.516,1.83
+FD12,outbound,7,STP0406,Halte Pandugo 1,0.85,1.59
+FD12,outbound,8,STP0543,Halte Sentra UKM MERR A,2.245,2.92
+FD12,outbound,9,STP0541,Halte Semolowaru 1,0.817,1.9
+FD12,outbound,10,STP0534,Halte ITATS,1.317,1.6
+FD12,outbound,11,STP0539,Halte SMPN 19,0.42,1
+FD12,outbound,12,STP0537,Halte RS Haji 1,0.633,1.59
+FD12,outbound,13,STP0344,Halte Kertajaya Indah,0.593,1.32
+FD12,outbound,14,STP0530,Bundaran ITS,1.097,2.51
+FD12,outbound,15,STP0535,Halte ITS,0.069,0
+FD12,outbound,16,STP0341,Halte KONI MERR,1.333,1.92
+FD12,outbound,17,STP0337,Halte Galaxy 1,0.45,1
+FD12,outbound,18,STP0352,Halte UNAIR 1,1.069,2.51
+FD12,outbound,19,STP0346,Halte Mulyorejo 1,1.003,1.9
+FD12,outbound,20,STP0342,Halte Kalijudan 1,1.017,2
+FD12,outbound,21,STP0348,Halte RSIA 1,0.66,1.51
+FD12,outbound,22,STP0035,Halte Kenjeran,1.316,2
+FD12,outbound,23,STP0036,Halte Kenpark,0.452,0.92
+FD12,inbound,1,STP0036,Halte Kenpark,0.0,0
+FD12,inbound,2,STP0351,Halte Superindo,0.41,0.51
+FD12,inbound,3,STP0349,Halte RSIA 2,1.323,2
+FD12,inbound,4,STP0343,Halte Kalijudan 2,0.634,1
+FD12,inbound,5,STP0347,Halte Mulyorejo 2,1.277,2.83
+FD12,inbound,6,STP0353,Halte UNAIR 2,0.716,1.68
+FD12,inbound,7,STP0338,Halte Galaxy 2,0.991,1.83
+FD12,inbound,8,STP0344,Halte Kertajaya Indah,0.649,1.68
+FD12,inbound,9,STP0530,Bundaran ITS,1.097,2.32
+FD12,inbound,10,STP0535,Halte ITS,0.069,0
+FD12,inbound,11,STP0358,Manyar Kerta Adi,1.148,2.51
+FD12,inbound,12,STP0538,Halte RS Haji 2,0.305,0.83
+FD12,inbound,13,STP0536,Halte Kopertis,0.86,1.68
+FD12,inbound,14,STP0544,Halte Univ. Katolik Darma Cendekia,0.456,1
+FD12,inbound,15,STP0542,Halte Semolowaru 2,1.484,2
+FD12,inbound,16,STP0540,Halte Semampir B,0.586,1.51
+FD12,inbound,17,STP0411,Halte Stikom (Dinamika),0.891,1.83
+FD12,inbound,18,STP0407,Halte Pandugo 2,1.434,2
+FD12,inbound,19,STP0433,RSUD Eka Candrarini,0.797,1.51
+FD12,inbound,20,STP0408,Halte Penjaringan Asri,0.369,1
+FD12,inbound,21,STP0410,Halte Rungkut Madya 2,0.399,1
+FD12,inbound,22,STP0235,Halte Gunung Anyar Lor 2,0.602,1
+FD12,inbound,23,STP0237,Halte Gunung Anyar Timur 2,0.871,2
+FD12,inbound,24,STP0250,UINSA Kampus 2 Stop 2,0.577,1.51
+FD12,inbound,25,STP0713,Terminal Purabaya,9.003,12.25

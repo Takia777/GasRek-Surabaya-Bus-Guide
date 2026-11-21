@@ -189,11 +189,11 @@ GasRek-Surabaya-Bus-Guide/
 
 ## Task division
 
-Every member collects part of the data in the first days, because the scope now covers the whole of Surabaya. After that, each member owns one or two components.
+The dataset for the whole of Surabaya was completed on 21 November, so every member starts directly on their components.
 
 | Area | Naura | Nashwa | Fathiya |
 | --- | --- | --- | --- |
-| Data collection | Suroboyo Bus routes | Wira Wiri routes; merging and cleaning all data; stop coordinates | Trans Semanggi routes; fare rules |
+| Data collection | Done (21 Nov) | Done (21 Nov) | Done (21 Nov) |
 | Knowledge representation | Graph model, import, routing queries | Ontology: classes, properties, inference | Rules: time, fare, filter, alternatives |
 | Application | Backend API, chatbot | — | Web interface (form, results, map, chat panel) |
 | Testing and documentation | Integration, demo | Test scenarios, final documentation | UI testing |
@@ -211,7 +211,7 @@ Duration: **2 weeks**, from **Friday 20 November 2026** to **Friday 4 December 2
 | Phase | Dates | Goal | Done when |
 | --- | --- | --- | --- |
 | 1. Setup | Fri 20 – Sun 22 Nov | Repository ready, tools installed, everyone has read their task sheet, the data format and the API contract | Everyone can open the repo and run the tools |
-| 2. Data | Sat 21 – Tue 24 Nov | Routes and stops of 3 operators for the whole of Surabaya collected and cleaned | `data/processed/` complete and checked |
+| 2. Data | Sat 21 Nov | Routes and stops of 3 operators for the whole of Surabaya collected and cleaned | **Done.** `data/processed/` complete (see [`data/README.md`](data/README.md)) |
 | 3. Build | Mon 23 – Sat 28 Nov | Ontology, graph, rules, backend, interface and chatbot built in parallel | Each component works on its own with sample data |
 | 4. Integration | Sat 28 Nov – Tue 1 Dec | Components connected end to end | A search from the interface returns a real answer |
 | 5. Testing and fixes | Tue 1 – Thu 3 Dec | Q1–Q7 tested, bugs fixed, documentation written | All test scenarios pass or have a known reason |

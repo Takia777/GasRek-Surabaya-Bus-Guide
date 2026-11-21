@@ -34,7 +34,7 @@ Request:
 }
 ```
 
-- `passenger_type`: `general` | `student` | `free`
+- `passenger_type`: `general` (Rp5.000) | `student` (Rp2.500) | `elderly`, `child`, `disabled`, `veteran` (free); values from `data/processed/fares.csv`
 - `filter`: `all` | `fastest` | `cheapest`
 
 Response:

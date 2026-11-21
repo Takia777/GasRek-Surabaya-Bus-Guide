@@ -74,10 +74,11 @@ React (Vite) + Leaflet untuk peta. Tampilan berbahasa Indonesia.
 - [ ] Baca kontrak API di `docs/api-contract.md` (sudah final)
 - [ ] Buat sketsa tampilan (form, hasil, detail, chat)
 
-### Fase 2 — Data (21–24 Nov)
-- [ ] Kumpulkan semua rute Trans Semanggi, dua arah, dengan jam dan headway
-- [ ] Tulis aturan tarif tiga operator di `data/raw/fares.md`, cek di GOBIS
-- [ ] Serahkan ke Nashwa paling lambat Selasa 24 Nov
+### Fase 2 — Data (selesai 21 Nov)
+Dataset sudah lengkap di `data/processed/` (lihat `data/README.md`). Tidak ada lagi yang perlu dikumpulkan.
+- [x] Kumpulkan semua rute Trans Semanggi, dua arah, dengan jam dan headway
+- [x] Tulis aturan tarif tiga operator di `data/raw/fares.md`, cek di GOBIS
+- [x] Serahkan ke Nashwa paling lambat Selasa 24 Nov
 
 ### Fase 3 — Build (23–28 Nov)
 - [ ] Aturan R1–R3 (tarif)
@@ -113,4 +114,4 @@ React (Vite) + Leaflet untuk peta. Tampilan berbahasa Indonesia.
 | Butuh dari | Apa | Kapan |
 | --- | --- | --- |
 | Naura | Backend yang bisa dipanggil | Sabtu 28 Nov |
-| Nashwa | Data bersih untuk contoh uji aturan | Selasa 24 Nov |
+| — | Data bersih untuk contoh uji aturan | Sudah tersedia (21 Nov) |

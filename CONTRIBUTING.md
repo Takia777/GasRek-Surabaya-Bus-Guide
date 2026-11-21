@@ -48,5 +48,11 @@ Singkat dan jelas, diawali jenis perubahan:
 - Jangan ubah folder milik anggota lain tanpa memberi tahu.
 - Keputusan teknis (alat, format data, kontrak API, pembagian tugas, jadwal) sudah final dan tercatat di README serta `docs/`. Kalau ada yang benar-benar perlu diubah, lapor ke Naura dulu, jangan langsung diubah.
 - Tandai checklist di `docs/tasks/<nama>.md` setiap ada tugas yang selesai.
-- Ada kendala lebih dari setengah hari: langsung sampaikan di grup.
+- Ada kendala lebih dari setengah hari: langsung sampaikan di grup, jangan menunggu check-in.
 
+## Check-in
+
+Setiap 2 hari (Minggu 22, Selasa 24, Kamis 26, Sabtu 28 Nov, Senin 30 Nov, Rabu 2 Des), masing-masing menjawab:
+1. Apa yang sudah selesai?
+2. Apa yang dikerjakan berikutnya?
+3. Apa yang menghambat?

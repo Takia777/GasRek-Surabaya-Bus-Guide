@@ -1,0 +1,17 @@
+route_id,operator_id,name,first_departure,last_departure,headway_min,trip_duration_min,source,retrieved_on,notes,source_url
+R1,SB,Purabaya - Perak,05:30,21:00,10.8,52,Moovit,2026-11-21,,https://moovitapp.com/index/en/public_transit-line-r1-Surabaya-4524-1548672-246930321-0
+R4,SB,Terminal Purabaya - ITS,05:30,21:00,30.0,50,Moovit,2026-11-21,,https://moovitapp.com/index/en/public_transit-line-r4-Surabaya-4524-1548672-242102771-0
+R5,SB,Terminal Benowo - Tunjungan,05:30,19:54,12.0,53,Moovit,2026-11-21,Di beberapa sumber disebut Wira Wiri FD01 (Terminal Benowo - Tunjungan). Moovit mencatatnya sebagai Suroboyo Bus R5.,https://moovitapp.com/index/en/public_transit-line-r5-Surabaya-4524-1548672-311536475-0
+SBT,SB,Purabaya - Pirngadi,06:30,18:20,103.8,34,Moovit,2026-11-21,Layanan dengan jadwal jarang; headway diambil rata-rata dari rentang di Moovit dan berbeda tiap hari.,https://moovitapp.com/index/en/public_transit-line-sbt-Surabaya-4524-1548672-47842129-0
+R2,TSS,Kejawan Putih Tambak - UNESA,05:00,22:00,12.0,52,Moovit,2026-11-21,Juga dikenal sebagai K2L. Arah ke Kejawan Putih Tambak melewati kawasan Tunjungan.,https://moovitapp.com/index/en/public_transit-line-r2-Surabaya-4524-2843701-326923619-0
+FD2,WW,Mayjend Sungkono - Balai Kota,05:30,19:54,12.0,22,Moovit,2026-11-21,,https://moovitapp.com/index/en/public_transit-line-fd2-Surabaya-4524-3751551-134311682-0
+FD3,WW,Terminal Intermoda Joyoboyo - Gunung Anyar,05:30,20:30,12.0,54,Moovit,2026-11-21,Akhir pekan diperpanjang ke Gunung Anyar Mangrove Park menurut sumber berita; Moovit belum mencantumkan perpanjangan.,https://moovitapp.com/index/en/public_transit-line-fd3-Surabaya-4524-3751551-134311683-0
+FD4,WW,SIER - Terminal Kasuari,05:30,21:00,15.0,44,Moovit,2026-11-21,Headway arah Kota Lama kosong di Moovit; dipakai headway arah sebaliknya (15 menit).,https://moovitapp.com/index/en/public_transit-line-fd4-Surabaya-4524-3751551-229365333-0
+FD5,WW,P&R Mayjend Sungkono - RS Bhakti Dharma Husada,05:30,20:00,15.0,44,Moovit,2026-11-21,,https://moovitapp.com/index/en/public_transit-line-fd5-Surabaya-4524-3751551-134311685-0
+FD6,WW,Terminal Intermoda Joyoboyo - Lakarsantri,05:30,21:00,15.0,54,Moovit,2026-11-21,,https://moovitapp.com/index/en/public_transit-line-fd6-Surabaya-4524-3751551-145945559-0
+FD7,WW,Terminal Bratang - Stasiun Pasar Turi,05:30,21:00,15.0,30,Moovit,2026-11-21,,https://moovitapp.com/index/en/public_transit-line-fd7-Surabaya-4524-3751551-145945560-0
+FD8,WW,UNESA - Terminal Osowilangun,05:30,21:25,29.5,24,Moovit,2026-11-21,,https://moovitapp.com/index/en/public_transit-line-fd8-Surabaya-4524-3751551-204781374-0
+FD9,WW,Terminal Menanggal - Terminal Manukan,05:30,20:50,20.0,60,Moovit,2026-11-21,,https://moovitapp.com/index/en/public_transit-line-fd9-Surabaya-4524-3751551-233188349-0
+FD10,WW,Terminal Keputih - Bunguran,05:30,20:50,20.0,44,Moovit,2026-11-21,,https://moovitapp.com/index/en/public_transit-line-fd10-Surabaya-4524-3751551-235275605-0
+FD11,WW,Terminal Bratang - Shelter Bulak,05:30,20:30,20.0,38,Moovit,2026-11-21,,https://moovitapp.com/index/en/public_transit-line-fd11-Surabaya-4524-3751551-238443681-0
+FD12,WW,Terminal Purabaya - Kenpark,05:30,21:00,15.0,50,Moovit,2026-11-21,Menggantikan Trans Semanggi K3L.,https://moovitapp.com/index/en/public_transit-line-fd12-Surabaya-4524-3751551-322759498-0

@@ -75,10 +75,11 @@ Kamu memegang "jalan raya" sistem: graf yang mencari rute, dan backend yang meny
 - [ ] Buat API key Gemini (gratis) dan simpan di `.env`
 - [ ] Pastikan Nashwa sudah membaca `data/README.md` dan Fathiya sudah membaca `docs/api-contract.md` (keduanya sudah final)
 
-### Fase 2 — Data (21–24 Nov)
-- [ ] Kumpulkan semua rute Suroboyo Bus, dua arah
-- [ ] Catat jam operasi, headway, sumber, tanggal pengambilan
-- [ ] Serahkan ke Nashwa paling lambat Selasa 24 Nov
+### Fase 2 — Data (selesai 21 Nov)
+Dataset sudah lengkap di `data/processed/` (lihat `data/README.md`). Tidak ada lagi yang perlu dikumpulkan.
+- [x] Kumpulkan semua rute Suroboyo Bus, dua arah
+- [x] Catat jam operasi, headway, sumber, tanggal pengambilan
+- [x] Serahkan ke Nashwa paling lambat Selasa 24 Nov
 
 ### Fase 3 — Build (23–28 Nov)
 - [ ] Skrip impor CSV ke Neo4j (bisa diulang dari nol)
@@ -114,7 +115,7 @@ Kamu memegang "jalan raya" sistem: graf yang mencari rute, dan backend yang meny
 
 | Butuh dari | Apa | Kapan |
 | --- | --- | --- |
-| Nashwa | Data bersih `data/processed/` | Selasa 24 Nov |
+| — | Data bersih `data/processed/` | Sudah tersedia (21 Nov) |
 | Nashwa | Hasil inferensi ontologi (grup halte, halte penghubung) | Kamis 26 Nov |
 | Fathiya | Modul aturan yang bisa dipanggil dari Python | Jumat 27 Nov |
 | Fathiya | Antarmuka yang siap disambungkan | Sabtu 28 Nov |

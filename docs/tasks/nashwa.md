@@ -74,13 +74,14 @@ Kamu memegang "kamus" dan "bahan baku" sistem. Semua komponen lain bergantung pa
 - [ ] Instal Protégé 5.6
 - [ ] Baca format data di `data/README.md` dan bagikan ke Naura dan Fathiya sebelum mereka mulai mengumpulkan data
 
-### Fase 2 — Data (21–24 Nov)
-- [ ] Kumpulkan semua rute Wira Wiri, dua arah, dengan jam dan headway
-- [ ] Terima data Suroboyo Bus (Naura) dan Trans Semanggi (Fathiya)
-- [ ] Gabungkan, seragamkan nama, beri `stop_id` dan `group_id`
-- [ ] Isi koordinat halte (OpenStreetMap, lalu cek manual yang tidak ketemu)
-- [ ] Jalankan pengecekan data wajib
-- [ ] Unggah `data/processed/` paling lambat Selasa 24 Nov
+### Fase 2 — Data (selesai 21 Nov)
+Dataset sudah lengkap di `data/processed/` (lihat `data/README.md`). Tidak ada lagi yang perlu dikumpulkan.
+- [x] Kumpulkan semua rute Wira Wiri, dua arah, dengan jam dan headway
+- [x] Terima data Suroboyo Bus (Naura) dan Trans Semanggi (Fathiya)
+- [x] Gabungkan, seragamkan nama, beri `stop_id` dan `group_id`
+- [x] Isi koordinat halte (OpenStreetMap, lalu cek manual yang tidak ketemu)
+- [x] Jalankan pengecekan data wajib
+- [x] Unggah `data/processed/` paling lambat Selasa 24 Nov
 
 ### Fase 3 — Build (23–28 Nov)
 - [ ] Buat kelas dan properti di Protégé
@@ -113,6 +114,5 @@ Kamu memegang "kamus" dan "bahan baku" sistem. Semua komponen lain bergantung pa
 
 | Butuh dari | Apa | Kapan |
 | --- | --- | --- |
-| Naura | Data Suroboyo Bus | Selasa 24 Nov |
-| Fathiya | Data Trans Semanggi dan aturan tarif | Selasa 24 Nov |
+| — | Data tiga operator | Sudah tersedia (21 Nov) |
 | Naura | Sistem terintegrasi untuk menjalankan Q1–Q7 | Selasa 1 Des |
