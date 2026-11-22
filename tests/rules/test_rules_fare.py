@@ -1,6 +1,6 @@
 from pyswip import Prolog
 
-# 22/11/2026: Test R1-R3
+# 14:40 22/11/2026: Test R1-R3
 
 p = Prolog()
 p.consult("rules/gasrek.pl")

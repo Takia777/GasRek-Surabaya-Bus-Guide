@@ -3,8 +3,6 @@
 % Fare values: data/raw/fares.md (retrieved 21 Nov 2026).
 
 % R1: fare of one ticket, by passenger type.
-% fares.md gives the same fare for Suroboyo Bus, Wira Wiri Suroboyo and
-% Trans Semanggi Suroboyo, so the operator is not a parameter.
 
 fare_by_type(general, 5000).
 fare_by_type(student, 2500).
@@ -21,18 +19,11 @@ fare_by_type(veteran,  0).
 
 ticket_validity_min(120).
 
-% trip_fare(+PassengerType, +BoardTimes, -Fare)
-% BoardTimes: boarding time of each leg, in order, in minutes since midnight.
-
 trip_fare(Type, BoardTimes, Fare) :-
     fare_by_type(Type, Base),
     ticket_validity_min(Validity),
     count_tickets(BoardTimes, Validity, Tickets),
     Fare is Base * Tickets.
-
-% count_tickets(+BoardTimes, +Validity, -Tickets)
-% A ticket bought at the first boarding covers every leg boarded before
-% T0 + Validity; the next uncovered leg starts a new ticket.
 
 count_tickets([], _, 0).
 count_tickets([T0|Rest], Validity, Tickets) :-
@@ -45,3 +36,23 @@ drop_covered([T|Ts], Limit, Rest) :-
     T < Limit, !,
     drop_covered(Ts, Limit, Rest).
 drop_covered(Rest, _, Rest).
+
+% R4: departure time of each bus at a stop = first departure + k * headway + travel time to that stop.
+bus_departure(First, Last, Headway, Offset, Dep) :-
+    Headway > 0,
+    N is floor((Last - First) / Headway),
+    between(0, N, K),
+    Dep is First + K * Headway + Offset.
+
+% R5: buses that already left before the search time are hidden.
+available_departure(First, Last, Headway, Offset, SearchTime, Dep) :-
+    bus_departure(First, Last, Headway, Offset, Dep),
+    Dep >= SearchTime.
+
+next_departure(First, Last, Headway, Offset, NotBefore, Dep) :-
+    once(available_departure(First, Last, Headway, Offset, NotBefore, Dep)).
+
+% R12: waiting time at a transfer stop, counted from the schedule of the next bus.
+transfer_wait(First, Last, Headway, Offset, ArriveTime, Wait, Dep) :-
+    next_departure(First, Last, Headway, Offset, ArriveTime, Dep),
+    Wait is Dep - ArriveTime.
