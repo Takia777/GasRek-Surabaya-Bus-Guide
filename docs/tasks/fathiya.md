@@ -69,9 +69,9 @@ React (Vite) + Leaflet untuk peta. Tampilan berbahasa Indonesia.
 ## 3. Checklist
 
 ### Fase 1 — Setup (20–22 Nov)
-- [ ] Clone repo lewat GitHub Desktop, buat branch `fathiya/rules` dan `fathiya/frontend`
-- [ ] Instal SWI-Prolog 9 dan Node.js 20, coba PySwip (keputusan Prolog atau Python paling lambat Senin 23 Nov)
-- [ ] Baca kontrak API di `docs/api-contract.md` (sudah final)
+- [x] Clone repo lewat GitHub Desktop, buat branch `fathiya/rules` dan `fathiya/frontend`
+- [x] Instal SWI-Prolog 9 dan Node.js 20, coba PySwip (keputusan Prolog atau Python paling lambat Senin 23 Nov)
+- [x] Baca kontrak API di `docs/api-contract.md` (sudah final)
 - [ ] Buat sketsa tampilan (form, hasil, detail, chat)
 
 ### Fase 2 — Data (selesai 21 Nov)
@@ -81,7 +81,7 @@ Dataset sudah lengkap di `data/processed/` (lihat `data/README.md`). Tidak ada l
 - [x] Serahkan ke Nashwa paling lambat Selasa 24 Nov
 
 ### Fase 3 — Build (23–28 Nov)
-- [ ] Aturan R1–R3 (tarif)
+- [x] Aturan R1–R3 (tarif)
 - [ ] Aturan R4–R5 dan R12 (jam)
 - [ ] Aturan R6–R8 (pesan dan alternatif)
 - [ ] Aturan R9–R11 (filter)
