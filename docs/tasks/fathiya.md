@@ -85,7 +85,7 @@ Dataset sudah lengkap di `data/processed/` (lihat `data/README.md`). Tidak ada l
 - [x] Aturan R4–R5 dan R12 (jam)
 - [x] Aturan R6–R8 (pesan dan alternatif)
 - [x] Aturan R9–R11 (filter)
-- [ ] Modul aturan bisa dipanggil dari Python, serahkan ke Naura paling lambat Jumat 27 Nov
+- [x] Modul aturan bisa dipanggil dari Python, serahkan ke Naura paling lambat Jumat 27 Nov
 - [ ] Form pencarian dengan saran nama halte
 - [ ] Daftar hasil dan detail rute (dengan data tiruan)
 - [ ] Peta jalur dengan Leaflet
