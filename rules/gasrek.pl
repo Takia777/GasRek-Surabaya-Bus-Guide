@@ -1,21 +1,12 @@
 % GasRek! - rules (SWI-Prolog 9)
-% Times are minutes since midnight (e.g. 15:00 = 900). Convert HH:MM in Python.
-% Fare values: data/raw/fares.md (retrieved 21 Nov 2026).
-
-% R1: fare of one ticket, by passenger type.
+% Source of all fare values: data/raw/fares.md (retrieved 21 Nov 2026).
 
 fare_by_type(general, 5000).
 fare_by_type(student, 2500).
-
-% R3: Passsangers that pay Rp. 0,00
-
 fare_by_type(elderly,  0).
 fare_by_type(child,    0).
 fare_by_type(disabled, 0).
 fare_by_type(veteran,  0).
-
-% R2: one ticket is valid for 2 hours. Boarding another bus within that time
-% costs nothing extra; boarding later needs a new ticket (a new 2-hour window).
 
 ticket_validity_min(120).
 
@@ -37,14 +28,12 @@ drop_covered([T|Ts], Limit, Rest) :-
     drop_covered(Ts, Limit, Rest).
 drop_covered(Rest, _, Rest).
 
-% R4: departure time of each bus at a stop = first departure + k * headway + travel time to that stop.
 bus_departure(First, Last, Headway, Offset, Dep) :-
     Headway > 0,
     N is floor((Last - First) / Headway),
     between(0, N, K),
     Dep is First + K * Headway + Offset.
 
-% R5: buses that already left before the search time are hidden.
 available_departure(First, Last, Headway, Offset, SearchTime, Dep) :-
     bus_departure(First, Last, Headway, Offset, Dep),
     Dep >= SearchTime.
@@ -52,19 +41,15 @@ available_departure(First, Last, Headway, Offset, SearchTime, Dep) :-
 next_departure(First, Last, Headway, Offset, NotBefore, Dep) :-
     once(available_departure(First, Last, Headway, Offset, NotBefore, Dep)).
 
-% R12: waiting time at a transfer stop, counted from the schedule of the next bus.
 transfer_wait(First, Last, Headway, Offset, ArriveTime, Wait, Dep) :-
     next_departure(First, Last, Headway, Offset, ArriveTime, Dep),
     Wait is Dep - ArriveTime.
 
-% R6 and R7: status and message of a search.
 search_status(0, _, no_route, 'Tidak ada rute untuk tujuan tersebut') :- !.      % R7
 search_status(_, 0, ended_today, 'Sisa rute hari ini sudah habis, tunggu besok') :- !.  % R6
 search_status(_, _, ok, none).
 
-% R8: nearest alternative stop that has a route, within 1 km.
 max_alternative_km(1.0).
-
 alternative_stop(Candidates, Stop) :-
     max_alternative_km(Max),
     findall(D-S, (member(D-S, Candidates), D =< Max), Near),
@@ -72,3 +57,15 @@ alternative_stop(Candidates, Stop) :-
     ->  Stop = none
     ;   keysort(Near, [_-Stop|_])
     ).
+
+filter_routes(_, [], []) :- !.
+filter_routes(all, Routes, Routes) :- !.
+filter_routes(Filter, Routes, [Best]) :-
+    member(Filter, [fastest, cheapest]),
+    findall(Key-Route,
+            ( member(Route, Routes), route_key(Filter, Route, Key) ),
+            Pairs),
+    keysort(Pairs, [_-Best|_]).
+
+route_key(fastest,  r(_, Duration, Transfers, _),    [Duration, Transfers]).
+route_key(cheapest, r(_, Duration, Transfers, Fare), [Fare, Duration, Transfers]).
