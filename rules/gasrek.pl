@@ -56,3 +56,19 @@ next_departure(First, Last, Headway, Offset, NotBefore, Dep) :-
 transfer_wait(First, Last, Headway, Offset, ArriveTime, Wait, Dep) :-
     next_departure(First, Last, Headway, Offset, ArriveTime, Dep),
     Wait is Dep - ArriveTime.
+
+% R6 and R7: status and message of a search.
+search_status(0, _, no_route, 'Tidak ada rute untuk tujuan tersebut') :- !.      % R7
+search_status(_, 0, ended_today, 'Sisa rute hari ini sudah habis, tunggu besok') :- !.  % R6
+search_status(_, _, ok, none).
+
+% R8: nearest alternative stop that has a route, within 1 km.
+max_alternative_km(1.0).
+
+alternative_stop(Candidates, Stop) :-
+    max_alternative_km(Max),
+    findall(D-S, (member(D-S, Candidates), D =< Max), Near),
+    (   Near == []
+    ->  Stop = none
+    ;   keysort(Near, [_-Stop|_])
+    ).
