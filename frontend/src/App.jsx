@@ -76,13 +76,6 @@ export default function App() {
         <RouteDetail route={selectedRoute} onBack={() => setSelectedRoute(null)} />
       )}
 
-      {!selectedRoute && (
-        <div className="page-intro">
-          <h1>Pencari Rute Bus Surabaya</h1>
-          <p>Cari rute perjalanan bus umum, perkiraan waktu tempuh, dan tarif.</p>
-        </div>
-      )}
-
       {/* Hidden, not removed, while a detail is open, so the form keeps what the user typed. */}
       <div className="search-layout" hidden={selectedRoute !== null}>
         <SearchForm onSearch={handleSearch} loading={loading} originOverride={originOverride} />

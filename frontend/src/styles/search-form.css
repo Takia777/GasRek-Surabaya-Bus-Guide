@@ -14,7 +14,7 @@
 
 .text-button {
   padding: 4px 0;
-  font-size: 14px;
+  font-size: 12px;
   color: var(--on-surface-variant);
   background: none;
   border: none;
@@ -124,6 +124,7 @@
 }
 
 .segmented {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 4px;
@@ -157,9 +158,33 @@
   border-radius: 8px;
 }
 
+/* Black block that slides under the chosen option (3 equal columns, 4px gap) */
+.segmented-thumb {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  width: calc((100% - 16px) / 3);
+  background: var(--primary);
+  border-radius: 8px;
+  transform: translateX(calc(var(--index) * (100% + 4px)));
+  transition: transform 0.25s ease;
+}
+
 .segment input:checked + span {
   color: var(--on-primary);
-  background: var(--primary);
+}
+
+.segment span {
+  position: relative;
+  transition: color 0.25s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .segmented-thumb,
+  .segment span {
+    transition: none;
+  }
 }
 
 .segment input:focus-visible + span {
@@ -181,7 +206,7 @@
   list-style: none;
   background: var(--surface-lowest);
   border: 1px solid var(--outline-variant);
-  border-radius: var(--radius-control);
+  border-radius: 24px;
 }
 
 .suggestions li {

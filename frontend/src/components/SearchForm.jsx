@@ -127,8 +127,8 @@ export default function SearchForm({ onSearch, loading, originOverride }) {
           <input id="time" type="time" value={time} onChange={(e) => setTime(e.target.value)} />
           {[
             ['Sekarang', 0],
-            ['+15 m', 15],
-            ['+30 m', 30],
+            // ['+15 m', 15],
+            // ['+30 m', 30],
           ].map(([text, plus]) => (
             <button
               key={text}
@@ -159,7 +159,11 @@ export default function SearchForm({ onSearch, loading, originOverride }) {
 
       <fieldset className="field filter-group">
         <legend>Tampilkan rute</legend>
-        <div className="segmented">
+        <div
+          className="segmented"
+          style={{ '--index': FILTERS.findIndex((f) => f.value === filter) }}
+        >
+          <span className="segmented-thumb" aria-hidden="true" />
           {FILTERS.map((f) => (
             <label key={f.value} className="segment">
               <input
