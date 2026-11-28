@@ -1,0 +1,17 @@
+.map-card {
+  isolation: isolate; /* keeps Leaflet's layers inside the card */
+  overflow: hidden;
+  background: var(--surface-container);
+  border: 1px solid var(--border-soft);
+  border-radius: 16px;
+}
+
+.map-card-head {
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.route-map {
+  height: 300px;
+}

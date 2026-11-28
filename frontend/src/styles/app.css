@@ -1,0 +1,134 @@
+.app {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 16px 48px;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-tile {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: var(--on-primary);
+  background: var(--primary);
+  border-radius: 12px;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+/* Laptop-only intro and footer */
+.page-intro,
+.app-footer {
+  display: none;
+}
+
+.brand-name {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.brand-sub {
+  font-size: 11px;
+  color: var(--on-surface-variant);
+}
+
+.chat-toggle {
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--on-surface);
+  background: var(--surface-container);
+  border: none;
+  border-radius: var(--radius-control);
+  cursor: pointer;
+}
+
+/* Search form on one side, results on the other (stacked on phones) */
+.search-layout {
+  display: grid;
+  gap: 24px;
+}
+
+/* "hidden" would lose against display: grid above */
+.search-layout[hidden] {
+  display: none;
+}
+
+.error-box {
+  margin: 0 0 16px;
+  padding: 16px;
+  color: var(--on-error-container);
+  background: var(--error-container);
+  border-radius: var(--radius-control);
+}
+
+@media (min-width: 1024px) {
+  .app {
+    padding: 0 32px 0;
+  }
+
+  .page-intro {
+    display: block;
+    margin: 24px 0 32px;
+  }
+
+  .page-intro h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  .page-intro p {
+    margin: 8px 0 0;
+    color: var(--on-surface-variant);
+  }
+
+  .app-footer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 64px -32px 0;
+    padding: 24px 32px;
+    font-size: 14px;
+    color: var(--on-surface-variant);
+    background: var(--surface-low);
+  }
+
+  .app-footer strong {
+    font-size: 20px;
+    color: var(--on-surface);
+  }
+
+  .search-layout {
+    grid-template-columns: 380px minmax(0, 1fr);
+    gap: 32px;
+    align-items: start;
+  }
+}
+
+/* Leave room for the chat side panel */
+@media (min-width: 768px) {
+  .app.chat-open {
+    padding-right: 412px;
+  }
+}
