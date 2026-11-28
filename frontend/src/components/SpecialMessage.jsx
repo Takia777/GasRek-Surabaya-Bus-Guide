@@ -11,7 +11,7 @@ const LABELS = {
 //   no_route    -> no path between the two stops
 //   error       -> the backend reports an error
 // The message text comes from the API; the alternative stop comes with ended_today and no_route.
-export default function SpecialMessage({ result }) {
+export default function SpecialMessage({ result, onSearchFromHere, destinationStopId }) {
   const { status, message, alternative_stop: alternativeStop } = result;
   const showAlternative = status === 'ended_today' || status === 'no_route';
 
@@ -34,6 +34,15 @@ export default function SpecialMessage({ result }) {
         <section className="alt-card">
           <h3>Halte alternatif terdekat:</h3>
           <p className="alt-stop">{alternativeStop ? alternativeStop.name : 'tidak ada'}</p>
+          {alternativeStop && onSearchFromHere && alternativeStop.stop_id !== destinationStopId && (
+            <button
+              type="button"
+              className="primary-button alt-button"
+              onClick={() => onSearchFromHere(alternativeStop)}
+            >
+              Cari dari sini →
+            </button>
+          )}
         </section>
       )}
     </>

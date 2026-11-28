@@ -5,8 +5,76 @@
   border-radius: var(--radius-card);
 }
 
+.search-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.text-button {
+  padding: 4px 0;
+  font-size: 14px;
+  color: var(--on-surface-variant);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.clear-button {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  line-height: 1;
+  color: var(--on-surface-variant);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.stop-input input[type='text'] {
+  padding-right: 44px;
+}
+
+.swap-button {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: -8px auto 8px;
+  font-size: 18px;
+  color: var(--on-primary);
+  background: var(--primary);
+  border: 3px solid var(--surface-lowest);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.time-row {
+  display: flex;
+  gap: 8px;
+}
+
+.time-row input {
+  flex: 1;
+  min-width: 0;
+}
+
+.chip-button {
+  padding: 0 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--on-surface);
+  background: var(--surface-container);
+  border: none;
+  border-radius: var(--radius-control);
+  cursor: pointer;
+}
+
 .search-title {
-  margin: 0 0 20px;
+  margin: 0;
   font-size: 24px;
   font-weight: 600;
   letter-spacing: -0.015em;

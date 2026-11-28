@@ -5,8 +5,24 @@ import '../styles/results.css';
 const countStops = (route) =>
   new Set(route.legs.flatMap((leg) => leg.stops.map((stop) => stop.stop_id))).size;
 
+// "Tercepat" / "Termurah" tags, only when the routes differ on that value.
+// Ties get the tag on each tied route.
+const tagsFor = (routes) => {
+  const minDuration = Math.min(...routes.map((r) => r.duration_min));
+  const minFare = Math.min(...routes.map((r) => r.fare));
+  const durationsDiffer = routes.some((r) => r.duration_min !== minDuration);
+  const faresDiffer = routes.some((r) => r.fare !== minFare);
+  return routes.map((r) => {
+    const tags = [];
+    if (durationsDiffer && r.duration_min === minDuration) tags.push('Tercepat');
+    if (faresDiffer && r.fare === minFare) tags.push('Termurah');
+    return tags;
+  });
+};
+
 // List of route cards (routes[] of POST /routes/search). onSelect(route) opens the detail.
 export default function RouteList({ routes, onSelect }) {
+  const tags = tagsFor(routes);
   return (
     <section className="results">
       <div className="results-head">
@@ -19,6 +35,15 @@ export default function RouteList({ routes, onSelect }) {
           <li key={index} className="route-card">
             <div className="route-card-top">
               <div>
+                {tags[index].length > 0 && (
+                  <div className="route-tags">
+                    {tags[index].map((tag) => (
+                      <span key={tag} className="route-tag">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
                 <div className="route-card-times">
                   {route.departure_time} → {route.arrival_time}
                   <span className="route-card-duration">{route.duration_min} menit</span>

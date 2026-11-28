@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from 'react';
 import { searchStops } from '../api.js';
 
 // Text input with stop-name suggestions (GET /stops?q=).
+// The parent owns the text, so it can swap, clear or fill it.
 // onSelect(stop) is called with the chosen stop, or null when the user edits the text again.
-export default function StopInput({ id, label, onSelect }) {
-  const [text, setText] = useState('');
+export default function StopInput({ id, label, text, onTextChange, onSelect }) {
   const [open, setOpen] = useState(false);
   const [suggestions, setSuggestions] = useState([]);
   const [searching, setSearching] = useState(false);
@@ -42,15 +42,20 @@ export default function StopInput({ id, label, onSelect }) {
   }, [text, open]);
 
   const handleChange = (e) => {
-    setText(e.target.value);
+    onTextChange(e.target.value);
     setOpen(true);
     onSelect(null); // the text changed, so the earlier choice no longer applies
   };
 
   const handleSelect = (stop) => {
-    setText(stop.name);
+    onTextChange(stop.name);
     setOpen(false);
     onSelect(stop);
+  };
+
+  const handleClear = () => {
+    onTextChange('');
+    onSelect(null);
   };
 
   const showList = open && text.trim() !== '';
@@ -71,6 +76,16 @@ export default function StopInput({ id, label, onSelect }) {
         onFocus={() => setOpen(true)}
         onBlur={() => setOpen(false)}
       />
+      {text !== '' && (
+        <button
+          type="button"
+          className="clear-button"
+          aria-label={`Hapus ${label}`}
+          onClick={handleClear}
+        >
+          ×
+        </button>
+      )}
       {showList && (
         <ul id={`${id}-list`} role="listbox" className="suggestions">
           {searching && <li className="suggestion-note">Mencari...</li>}

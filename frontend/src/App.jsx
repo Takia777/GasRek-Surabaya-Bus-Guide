@@ -13,8 +13,11 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [chatOpen, setChatOpen] = useState(false);
+  const [lastRequest, setLastRequest] = useState(null);
+  const [originOverride, setOriginOverride] = useState(null);
 
   const handleSearch = async (request) => {
+    setLastRequest(request);
     setLoading(true);
     setError('');
     setResult(null);
@@ -26,6 +29,12 @@ export default function App() {
     } finally {
       setLoading(false);
     }
+  };
+
+  // "Cari dari sini": same search, but starting at the alternative stop.
+  const handleSearchFromAlternative = (stop) => {
+    setOriginOverride({ stop, nonce: Date.now() });
+    handleSearch({ ...lastRequest, origin_stop_id: stop.stop_id });
   };
 
   // "Lihat detail" in the chat: show the chat's routes here (one route opens its detail).
@@ -76,7 +85,7 @@ export default function App() {
 
       {/* Hidden, not removed, while a detail is open, so the form keeps what the user typed. */}
       <div className="search-layout" hidden={selectedRoute !== null}>
-        <SearchForm onSearch={handleSearch} loading={loading} />
+        <SearchForm onSearch={handleSearch} loading={loading} originOverride={originOverride} />
 
         <div className="results-column">
           {error && (
@@ -89,7 +98,13 @@ export default function App() {
             <RouteList routes={result.routes} onSelect={setSelectedRoute} />
           )}
 
-          {result && result.status !== 'ok' && <SpecialMessage result={result} />}
+          {result && result.status !== 'ok' && (
+            <SpecialMessage
+              result={result}
+              onSearchFromHere={lastRequest ? handleSearchFromAlternative : undefined}
+              destinationStopId={lastRequest ? lastRequest.destination_stop_id : null}
+            />
+          )}
         </div>
       </div>
 
